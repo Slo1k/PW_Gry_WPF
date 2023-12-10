@@ -34,7 +34,7 @@ h1:focus {
 
 body {
     background: lightgray;
-
+    position: relative;
 }
 .index-btn {
     width: 150px;
@@ -120,6 +120,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    outline: none;
+    border: none;
 }
 .catalog-element .catalog-element-btn.edit {
     background: #006bf7;
@@ -145,4 +147,58 @@ body {
 .back-btn:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.confirm-modal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+.confirm-modal > div {
+    min-width: 25%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.confirm-modal-content {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.confirm-modal-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.confirm-modal-buttons > button {
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+.confirm-modal-buttons > button.cancel {
+    border: 2px solid #ad2a2a;
+    color: #ad2a2a;
+    background: lightgray;
+}
+.confirm-modal-buttons > button.cancel:hover {
+    background: rgb(192, 192, 192);
+}
+.confirm-modal-buttons > button.confirm {
+    color: white;
+    background: #006bf7;
+}
+.confirm-modal-buttons > button.confirm:hover {
+    background: #024fb5;
 }

@@ -1807,11 +1807,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\PLIKI\\STUDIA\\SEMESTR VII\\Programowanie Wizualne\\projekt 1\\GamesCatalog\\WebApp\\GamesCatalog.csproj",
+      "projectUniqueName": "C:\\PLIKI\\GitHub\\PW_Gry_WPF\\WebApp\\GamesCatalog.csproj",
       "projectName": "GamesCatalog",
-      "projectPath": "E:\\PLIKI\\STUDIA\\SEMESTR VII\\Programowanie Wizualne\\projekt 1\\GamesCatalog\\WebApp\\GamesCatalog.csproj",
+      "projectPath": "C:\\PLIKI\\GitHub\\PW_Gry_WPF\\WebApp\\GamesCatalog.csproj",
       "packagesPath": "C:\\Users\\HATUS\\.nuget\\packages\\",
-      "outputPath": "E:\\PLIKI\\STUDIA\\SEMESTR VII\\Programowanie Wizualne\\projekt 1\\GamesCatalog\\WebApp\\obj\\",
+      "outputPath": "C:\\PLIKI\\GitHub\\PW_Gry_WPF\\WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

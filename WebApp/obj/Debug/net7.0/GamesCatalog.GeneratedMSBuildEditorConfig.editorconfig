@@ -9,33 +9,37 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = GamesCatalog
 build_property.RootNamespace = GamesCatalog
-build_property.ProjectDir = e:\PLIKI\STUDIA\SEMESTR VII\Programowanie Wizualne\projekt 1\GamesCatalog\WebApp\
+build_property.ProjectDir = c:\PLIKI\GitHub\PW_Gry_WPF\WebApp\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = e:\PLIKI\STUDIA\SEMESTR VII\Programowanie Wizualne\projekt 1\GamesCatalog\WebApp
+build_property.MSBuildProjectDirectory = c:\PLIKI\GitHub\PW_Gry_WPF\WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[e:/PLIKI/STUDIA/SEMESTR VII/Programowanie Wizualne/projekt 1/GamesCatalog/WebApp/App.razor]
+[c:/PLIKI/GitHub/PW_Gry_WPF/WebApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/PLIKI/STUDIA/SEMESTR VII/Programowanie Wizualne/projekt 1/GamesCatalog/WebApp/MainLayout.razor]
+[c:/PLIKI/GitHub/PW_Gry_WPF/WebApp/Components/ConfirmModal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb25maXJtTW9kYWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/PLIKI/GitHub/PW_Gry_WPF/WebApp/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/PLIKI/STUDIA/SEMESTR VII/Programowanie Wizualne/projekt 1/GamesCatalog/WebApp/Pages/Games.razor]
+[c:/PLIKI/GitHub/PW_Gry_WPF/WebApp/Pages/Games.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/PLIKI/STUDIA/SEMESTR VII/Programowanie Wizualne/projekt 1/GamesCatalog/WebApp/Pages/Index.razor]
+[c:/PLIKI/GitHub/PW_Gry_WPF/WebApp/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/PLIKI/STUDIA/SEMESTR VII/Programowanie Wizualne/projekt 1/GamesCatalog/WebApp/Pages/Producers.razor]
+[c:/PLIKI/GitHub/PW_Gry_WPF/WebApp/Pages/Producers.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjZXJzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/PLIKI/STUDIA/SEMESTR VII/Programowanie Wizualne/projekt 1/GamesCatalog/WebApp/_Imports.razor]
+[c:/PLIKI/GitHub/PW_Gry_WPF/WebApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

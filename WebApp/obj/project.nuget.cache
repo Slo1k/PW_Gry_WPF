@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "57uCOyfP6XH8ftdgrXrtRgYLe6ZB9DELJ5eUqgx6Mlyi/V+QKITMGpC02v7KGuDIhx0APoWIqGK4lwhbl84AmQ==",
+  "dgSpecHash": "v6FozjQ+3tCBM9KSHP7d37F77uL+WY5gKrrZMfIc3VtNay4gfH8SVdnoQcCCn2mSGKS3jjdHbHppePK+VN1Rxg==",
   "success": true,
-  "projectFilePath": "E:\\PLIKI\\STUDIA\\SEMESTR VII\\Programowanie Wizualne\\projekt 1\\GamesCatalog\\WebApp\\GamesCatalog.csproj",
+  "projectFilePath": "C:\\PLIKI\\GitHub\\PW_Gry_WPF\\WebApp\\GamesCatalog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HATUS\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.5\\microsoft.aspnetcore.authorization.7.0.5.nupkg.sha512",
     "C:\\Users\\HATUS\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.5\\microsoft.aspnetcore.components.7.0.5.nupkg.sha512",

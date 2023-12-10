@@ -1,0 +1,42 @@
+@inherits ComponentBase
+
+<div
+    class="confirm-modal"
+>
+    <div>
+        <div class='confirm-modal-content'>
+            @ChildContent
+        </div>
+        <div class='confirm-modal-buttons'>
+            <button
+                class='cancel'
+                @onclick="CancelClicked"
+            >
+                Cancel
+            </button>
+            <button
+                class='confirm'
+                @onclick="ConfirmClicked"
+            >
+                Confirm
+            </button>
+        </div>
+    </div>
+</div>
+
+
+
+@code {
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+    [Parameter] public EventCallback<bool> OnConfirm { get; set; }
+    [Parameter] public EventCallback<bool> OnCancel{ get; set; }
+
+    private async Task ConfirmClicked()
+    {
+        await OnConfirm.InvokeAsync(true);
+    }
+    private async Task CancelClicked()
+    {
+        await OnCancel.InvokeAsync(true);
+    }
+}

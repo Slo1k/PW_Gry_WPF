@@ -1,4 +1,6 @@
 @page "/games"
+@inject KrakowiakKozlowski.GamesCatalog.INTERFACES.IDAO DAO
+@using GamesCatalog.Components
 
 <PageTitle>
     Games Catalog - Games
@@ -26,51 +28,26 @@
     <div
         class="catalog-container"
     >
-        <div
-            class="catalog-element"
-        >
-            <span>
-                Gta 5 - Rockstar games
-            </span>
-            <div>
-                <div class="catalog-element-btn edit">
-                    edit
-                </div>
-                <div class="catalog-element-btn remove">
-                    remove
-                </div>
-            </div>
-        </div>
-        <div
-            class="catalog-element"
-        >
-            <span>
-                Gta 5 - Rockstar games
-            </span>
-            <div>
-                <div class="catalog-element-btn">
-                    edit
-                </div>
-                <div class="catalog-element-btn">
-                    remove
+        @foreach (var game in games)
+        {
+            <div class="catalog-element">
+                <span>@game.Title</span>
+                <div>
+                    <div class="catalog-element-btn edit">edit</div>
+                    <button 
+                        class="catalog-element-btn remove"
+                        @onclick="() => ShowRemoveConfirmation(game)"
+                    >
+                        remove
+                    </button>
                 </div>
             </div>
-        </div>
-        <div
-            class="catalog-element"
-        >
-            <span>
-                Gta 5 - Rockstar games
-            </span>
-            <div>
-                <div class="catalog-element-btn">
-                    edit
-                </div>
-                <div class="catalog-element-btn">
-                    remove
-                </div>
+        }
+        @if(games == null || games.Count == 0) {
+            <div style='text-align: center; padding: 10px 0'>
+                No producers to display
             </div>
-        </div>
+        }
     </div>
     <NavLink
         href="/"
@@ -81,3 +58,50 @@
         </span>
     </NavLink>
 </div>
+
+@if(isConfirmModalOpen) {
+    <ConfirmModal 
+        OnConfirm="HandleConfirm"
+        OnCancel="HandleCancel" 
+    >
+        Are you sure you want to remove <strong>"@selectedGame.Title"</strong>? 
+    </ConfirmModal>
+}
+
+@code {
+    private bool isConfirmModalOpen = false;
+    private KrakowiakKozlowski.GamesCatalog.INTERFACES.IGame? selectedGame;
+
+    List<KrakowiakKozlowski.GamesCatalog.INTERFACES.IGame> games;
+
+    private void ShowRemoveConfirmation(KrakowiakKozlowski.GamesCatalog.INTERFACES.IGame game)
+    {
+        selectedGame = game;
+        isConfirmModalOpen = true;
+    }
+    private void HandleCancel()
+    {
+        // Reset the flag
+        isConfirmModalOpen = false;
+        selectedGame = null;
+    }
+    private void HandleConfirm()
+    {
+        if (selectedGame != null)
+        {
+            // TODO: Implement the logic to delete the selected producer
+            DAO.RemoveGame(selectedGame.Id);
+            
+            // Refresh the producers list
+            games = DAO.GetAllGames().ToList();
+        }
+
+        // Reset the flag and selected producer
+        isConfirmModalOpen = false;
+        selectedGame = null;
+    }
+    protected override void OnInitialized()
+    {
+        games = DAO.GetAllGames().ToList();
+    }
+}

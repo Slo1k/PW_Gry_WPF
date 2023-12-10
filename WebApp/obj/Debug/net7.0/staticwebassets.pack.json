@@ -1,19 +1,19 @@
 {
   "Files": [
     {
-      "Id": "E:\\PLIKI\\STUDIA\\SEMESTR VII\\Programowanie Wizualne\\projekt 1\\GamesCatalog\\WebApp\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\PLIKI\\GitHub\\PW_Gry_WPF\\WebApp\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "E:\\PLIKI\\STUDIA\\SEMESTR VII\\Programowanie Wizualne\\projekt 1\\GamesCatalog\\WebApp\\obj\\Debug\\net7.0\\build-gz\\JsEAg1N5.gz",
+      "Id": "C:\\PLIKI\\GitHub\\PW_Gry_WPF\\WebApp\\obj\\Debug\\net7.0\\build-gz\\JsEAg1N5.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "E:\\PLIKI\\STUDIA\\SEMESTR VII\\Programowanie Wizualne\\projekt 1\\GamesCatalog\\WebApp\\wwwroot\\css\\app.css",
+      "Id": "C:\\PLIKI\\GitHub\\PW_Gry_WPF\\WebApp\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "E:\\PLIKI\\STUDIA\\SEMESTR VII\\Programowanie Wizualne\\projekt 1\\GamesCatalog\\WebApp\\wwwroot\\index.html",
+      "Id": "C:\\PLIKI\\GitHub\\PW_Gry_WPF\\WebApp\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
