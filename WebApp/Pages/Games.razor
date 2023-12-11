@@ -21,15 +21,28 @@
             </div>
         </NavLink>
     </div>
-    <input
-        type="text"
-        placeholder="Search Games"
-        class='catalog-input'
-    />
+    <div
+        style="display: flex; gap: 10px; width: 100%; margin-bottom: 10px"
+    >
+        <input
+            type="text"
+            placeholder="Search Games by Title"
+            class='catalog-input'
+            @bind="searchTerm"
+        />
+        <button 
+            class="catalog-input-btn" 
+            @onclick="Search"
+        >
+            Search
+        </button>
+    </div>
     <div
         class="catalog-container"
     >
-        @foreach (var game in games)
+    @if(filteredGames.Any())
+    {
+        @foreach (var game in filteredGames)
         {
             <div class="catalog-element">
                 
@@ -55,11 +68,12 @@
                 </div>
             </div>
         }
-        @if(games == null || games.Count == 0) {
-            <div style='text-align: center; padding: 10px 0'>
-                No producers to display
-            </div>
-        }
+    }
+    @if(filteredGames == null || filteredGames.Count == 0) {
+        <div style='text-align: center; padding: 10px 0'>
+            No producers to display
+        </div>
+    }
     </div>
     <NavLink
         href="/"
@@ -81,10 +95,13 @@
 }
 
 @code {
+    private string searchTerm = "";
     private bool isConfirmModalOpen = false;
     private KrakowiakKozlowski.GamesCatalog.INTERFACES.IGame? selectedGame;
 
     List<KrakowiakKozlowski.GamesCatalog.INTERFACES.IGame> games;
+    private List<KrakowiakKozlowski.GamesCatalog.INTERFACES.IGame> filteredGames = new List<KrakowiakKozlowski.GamesCatalog.INTERFACES.IGame>();
+   
     private void NavigateToEdit(int id)
     {
         NavManager.NavigateTo("/editgame/" + id);
@@ -115,8 +132,15 @@
         isConfirmModalOpen = false;
         selectedGame = null;
     }
+    private void Search()
+    {
+        filteredGames = games
+            .Where(game => game.Title.Contains(searchTerm, StringComparison.OrdinalIgnoreCase))
+            .ToList();
+    }
     protected override void OnInitialized()
     {
         games = DAO.GetAllGames().ToList();
+        filteredGames = games;
     }
 }

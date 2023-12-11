@@ -21,15 +21,28 @@
             </div>
         </NavLink>
     </div>
-    <input
-        type="text"
-        placeholder="Search Producers"
-        class='catalog-input'
-    />
+    <div
+        style="display: flex; gap: 10px; width: 100%; margin-bottom: 10px"
+    >
+        <input
+            type="text"
+            placeholder="Search Producers by Name"
+            class='catalog-input'
+            @bind="searchTerm"
+        />
+        <button 
+            class="catalog-input-btn" 
+            @onclick="Search"
+        >
+            Search
+        </button>
+    </div>
     <div
         class="catalog-container"
     >
-        @foreach (var producer in producers)
+    @if (filteredProducers.Any()) 
+    {
+        @foreach (var producer in filteredProducers)
         {
             <div class="catalog-element">
                 
@@ -55,11 +68,12 @@
                 </div>
             </div>
         }
-        @if(producers == null || producers.Count == 0) {
-            <div style='text-align: center; padding: 10px 0'>
-                No producers to display
-            </div>
-        }
+    }
+    @if(filteredProducers == null || filteredProducers.Count == 0) {
+        <div style='text-align: center; padding: 10px 0'>
+            No producers to display
+        </div>
+    }
     </div>
     <NavLink
         href="/"
@@ -81,10 +95,12 @@
 }
 
 @code {
+    private string searchTerm = "";
     private bool isConfirmModalOpen = false;
     private KrakowiakKozlowski.GamesCatalog.INTERFACES.IProducer? selectedProducer;
 
     List<KrakowiakKozlowski.GamesCatalog.INTERFACES.IProducer> producers;
+    private List<KrakowiakKozlowski.GamesCatalog.INTERFACES.IProducer> filteredProducers = new List<KrakowiakKozlowski.GamesCatalog.INTERFACES.IProducer>();
     private void NavigateToEdit(int id)
     {
         NavManager.NavigateTo("/editproducer/" + id);
@@ -115,8 +131,15 @@
         isConfirmModalOpen = false;
         selectedProducer = null;
     }
+    private void Search()
+    {
+        filteredProducers = producers
+            .Where(producer => producer.Name.Contains(searchTerm, StringComparison.OrdinalIgnoreCase))
+            .ToList();
+    }
     protected override void OnInitialized()
     {
         producers = DAO.GetAllProducers().ToList();
+        filteredProducers = producers;
     }
 }
