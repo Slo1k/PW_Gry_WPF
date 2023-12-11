@@ -28,12 +28,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[c:/PLIKI/GitHub/PW_Gry_WPF/WebApp/Pages/Game.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/PLIKI/GitHub/PW_Gry_WPF/WebApp/Pages/Games.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/PLIKI/GitHub/PW_Gry_WPF/WebApp/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/PLIKI/GitHub/PW_Gry_WPF/WebApp/Pages/NewGame.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3R2FtZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/PLIKI/GitHub/PW_Gry_WPF/WebApp/Pages/NewProducer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3UHJvZHVjZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/PLIKI/GitHub/PW_Gry_WPF/WebApp/Pages/Producers.razor]

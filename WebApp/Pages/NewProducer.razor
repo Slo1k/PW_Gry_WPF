@@ -1,0 +1,70 @@
+@page "/newproducer"
+@inject KrakowiakKozlowski.GamesCatalog.INTERFACES.IDAO DAO
+@inject NavigationManager NavManager
+
+<div class="wrapper">
+    <h1>
+        Add New Producer
+    </h1>
+    <form class='form' @onsubmit="HandleFormSubmit">
+        <label for="producer-name">
+            Name
+        </label>
+        <input id="producer-name" type="text" @bind-value="formModel.Name" required />
+
+        <label for="producer-country">
+            Country
+        </label>
+        <input id="producer-country" type="text"@bind-value="formModel.Country" required />
+
+        <button type="submit">Add Producer</button>
+    </form>
+</div>
+
+@code {
+    private FormModel formModel = new FormModel();
+
+    private class FormModel
+    {
+        public string Name { get; set; }
+        public string Country { get; set; }
+    }
+    private KrakowiakKozlowski.GamesCatalog.INTERFACES.IProducer newProducer = new KrakowiakKozlowski.GamesCatalog.DAOMock.ProducerDAOMock();
+
+    private void HandleFormSubmit()
+    {
+        int newProducerId = producers.Max(p => p.Id) + 1;
+
+        newProducer.Id = newProducerId;
+
+        newProducer.Name = formModel.Name;
+        newProducer.Country = formModel.Country;
+
+        if (!Validate()) 
+        {
+            return;
+        }
+
+        DAO.AddNewProducer(newProducer);
+
+        // Reset the form
+        formModel = new FormModel();
+
+        producers = DAO.GetAllProducers().ToList();
+        NavManager.NavigateTo("/producers");
+    }
+    private bool Validate() 
+    {
+        if (newProducer.Name.Length > 0 && newProducer.Country.Length > 0) 
+        {
+            return true;
+        }
+        return false;
+    }
+    private List<KrakowiakKozlowski.GamesCatalog.INTERFACES.IProducer> producers;
+
+    protected override void OnInitialized()
+    {
+        producers = DAO.GetAllProducers().ToList();
+    }
+}

@@ -31,7 +31,13 @@
         @foreach (var game in games)
         {
             <div class="catalog-element">
-                <span>@game.Title</span>
+                
+                <NavLink
+                    href="@($"game/{game.Id}")"
+                    style="text-decoration: none; color: black"
+                >
+                    <span>@game.Title</span>
+                </NavLink>
                 <div>
                     <div class="catalog-element-btn edit">edit</div>
                     <button 

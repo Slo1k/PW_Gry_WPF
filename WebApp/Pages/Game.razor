@@ -1,0 +1,15 @@
+@page "/game/{gameId:int}"
+
+<PageTitle>
+    Games Catalog - @gameId
+</PageTitle>
+
+<div class="wrapper">
+    @gameId
+</div>
+
+
+@code {
+    [Parameter]
+    public int gameId { get; set; }
+}

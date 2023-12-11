@@ -12,7 +12,7 @@
     >
         <h1>Producers</h1>
         <NavLink
-            href="NewProducer"
+            href="newproducer"
             style="text-decoration: none"
         >
             <div class='catalog-header-btn'>
@@ -31,7 +31,13 @@
         @foreach (var producer in producers)
         {
             <div class="catalog-element">
-                <span>@producer.Name</span>
+                
+                <NavLink
+                    href="@($"producer/{producer.Id}")"
+                    style="text-decoration: none; color: black"
+                >
+                    <span>@producer.Name</span>
+                </NavLink>
                 <div>
                     <div class="catalog-element-btn edit">edit</div>
                     <button 
