@@ -1,6 +1,7 @@
 @page "/games"
 @inject KrakowiakKozlowski.GamesCatalog.INTERFACES.IDAO DAO
 @using GamesCatalog.Components
+@inject NavigationManager NavManager
 
 <PageTitle>
     Games Catalog - Games
@@ -39,7 +40,12 @@
                     <span>@game.Title</span>
                 </NavLink>
                 <div>
-                    <div class="catalog-element-btn edit">edit</div>
+                    <button 
+                        class="catalog-element-btn edit"
+                        @onclick="() => NavigateToEdit(game.Id)"
+                    >
+                        edit
+                    </button>
                     <button 
                         class="catalog-element-btn remove"
                         @onclick="() => ShowRemoveConfirmation(game)"
@@ -79,7 +85,10 @@
     private KrakowiakKozlowski.GamesCatalog.INTERFACES.IGame? selectedGame;
 
     List<KrakowiakKozlowski.GamesCatalog.INTERFACES.IGame> games;
-
+    private void NavigateToEdit(int id)
+    {
+        NavManager.NavigateTo("/editgame/" + id);
+    }
     private void ShowRemoveConfirmation(KrakowiakKozlowski.GamesCatalog.INTERFACES.IGame game)
     {
         selectedGame = game;

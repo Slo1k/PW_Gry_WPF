@@ -1,0 +1,88 @@
+@page "/editproducer/{producerId:int}"
+@inject KrakowiakKozlowski.GamesCatalog.INTERFACES.IDAO DAO
+@inject NavigationManager NavManager
+
+<div class="wrapper">
+    @if(producer is null) 
+    {
+    <h1>
+        No producer of ID: @producerId
+    </h1>
+    }
+    @if(producer is not null)
+    {
+        <h1>
+            Edit Producer
+        </h1>
+        <form class='form' @onsubmit="HandleFormSubmit">
+            <label for="producer-name">
+                Name
+            </label>
+            <input id="producer-name" type="text" @bind-value="formModel.Name" required />
+
+            <label for="producer-country">
+                Country
+            </label>
+            <input id="producer-country" type="text"@bind-value="formModel.Country" required />
+
+            <button 
+                class="add-btn"
+                type="submit"
+            >
+                Confirm Edit
+            </button>
+        </form>
+    }
+</div>
+
+@code {
+    [Parameter] public int producerId { get; set; }
+    private FormModel formModel = new FormModel();
+
+    private class FormModel
+    {
+        public string Name { get; set; }
+        public string Country { get; set; }
+    }
+    private KrakowiakKozlowski.GamesCatalog.INTERFACES.IProducer? producer;
+    private KrakowiakKozlowski.GamesCatalog.INTERFACES.IProducer editProducer = new KrakowiakKozlowski.GamesCatalog.DAOMock.ProducerDAOMock();
+
+    private void HandleFormSubmit()
+    {
+
+        editProducer.Id = producerId;
+
+        editProducer.Name = formModel.Name;
+        editProducer.Country = formModel.Country;
+
+        if (!Validate()) 
+        {
+            return;
+        }
+
+        DAO.UpdateProducer(editProducer);
+
+        // Reset the form
+        formModel = new FormModel();
+
+        NavManager.NavigateTo("/producers");
+    }
+    private bool Validate() 
+    {
+        if (editProducer.Name.Length > 0 && editProducer.Country.Length > 0) 
+        {
+            return true;
+        }
+        return false;
+    }
+
+    protected override void OnInitialized()
+    {
+        producer = DAO.GetProducerById(producerId);
+        if (producer is not null) 
+        {
+            formModel.Name = producer.Name;
+            formModel.Country = producer.Country;
+        }
+    }
+}

@@ -1,6 +1,7 @@
 @page "/producers"
 @inject KrakowiakKozlowski.GamesCatalog.INTERFACES.IDAO DAO
 @using GamesCatalog.Components
+@inject NavigationManager NavManager
 
 <PageTitle>
     Games Catalog - Producers
@@ -39,7 +40,12 @@
                     <span>@producer.Name</span>
                 </NavLink>
                 <div>
-                    <div class="catalog-element-btn edit">edit</div>
+                    <button 
+                        class="catalog-element-btn edit"
+                        @onclick="() => NavigateToEdit(producer.Id)"
+                    >
+                        edit
+                    </button>
                     <button 
                         class="catalog-element-btn remove"
                         @onclick="() => ShowRemoveConfirmation(producer)"
@@ -79,7 +85,10 @@
     private KrakowiakKozlowski.GamesCatalog.INTERFACES.IProducer? selectedProducer;
 
     List<KrakowiakKozlowski.GamesCatalog.INTERFACES.IProducer> producers;
-
+    private void NavigateToEdit(int id)
+    {
+        NavManager.NavigateTo("/editproducer/" + id);
+    }
     private void ShowRemoveConfirmation(KrakowiakKozlowski.GamesCatalog.INTERFACES.IProducer producer)
     {
         selectedProducer = producer;

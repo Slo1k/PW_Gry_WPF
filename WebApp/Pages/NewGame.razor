@@ -61,7 +61,7 @@
         public int ReleaseYear { get; set; }
         public int Score { get; set; }
         public int ProducerId { get; set; }
-        public string Genre { get; set; }
+        public KrakowiakKozlowski.GamesCatalog.CORE.GameGenre Genre { get; set; }
     }
     private KrakowiakKozlowski.GamesCatalog.INTERFACES.IGame newGame = new KrakowiakKozlowski.GamesCatalog.DAOMock.GameDAOMock();
 
@@ -75,7 +75,7 @@
         newGame.ReleaseYear = formModel.ReleaseYear;
         newGame.Score = formModel.Score;
         newGame.Producer = producers.FirstOrDefault(p => p.Id == formModel.ProducerId);
-        newGame.Genre = Enum.Parse<KrakowiakKozlowski.GamesCatalog.CORE.GameGenre>(formModel.Genre);
+        newGame.Genre = formModel.Genre;
             
         if (!Validate()) 
         {
