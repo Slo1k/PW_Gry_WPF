@@ -1,0 +1,5 @@
+E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.GamesCatalog\GamesCatalog\obj\Debug\net7.0-windows\GamesCatalog.csproj.AssemblyReference.cache
+E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.GamesCatalog\GamesCatalog\obj\Debug\net7.0-windows\MainWindow.g.cs
+E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.GamesCatalog\GamesCatalog\obj\Debug\net7.0-windows\App.g.cs
+E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.GamesCatalog\GamesCatalog\obj\Debug\net7.0-windows\GamesCatalog_MarkupCompile.cache
+E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.GamesCatalog\GamesCatalog\obj\Debug\net7.0-windows\GamesCatalog_MarkupCompile.lref

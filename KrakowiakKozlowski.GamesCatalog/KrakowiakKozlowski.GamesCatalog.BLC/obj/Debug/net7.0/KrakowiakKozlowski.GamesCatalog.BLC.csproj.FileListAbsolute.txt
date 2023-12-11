@@ -1,0 +1,6 @@
+E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.GamesCatalog\KrakowiakKozlowski.GamesCatalog.BLC\obj\Debug\net7.0\KrakowiakKozlowski.GamesCatalog.BLC.csproj.AssemblyReference.cache
+E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.GamesCatalog\KrakowiakKozlowski.GamesCatalog.BLC\obj\Debug\net7.0\KrakowiakKozlowski.GamesCatalog.BLC.GeneratedMSBuildEditorConfig.editorconfig
+E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.GamesCatalog\KrakowiakKozlowski.GamesCatalog.BLC\obj\Debug\net7.0\KrakowiakKozlowski.GamesCatalog.BLC.AssemblyInfoInputs.cache
+E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.GamesCatalog\KrakowiakKozlowski.GamesCatalog.BLC\obj\Debug\net7.0\KrakowiakKozlowski.GamesCatalog.BLC.AssemblyInfo.cs
+E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.GamesCatalog\KrakowiakKozlowski.GamesCatalog.BLC\obj\Debug\net7.0\KrakowiakKozlowski.GamesCatalog.BLC.csproj.CoreCompileInputs.cache
+E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.GamesCatalog\KrakowiakKozlowski.GamesCatalog.BLC\obj\Debug\net7.0\KrakowiakKozlowski.GamesCatalog.BLC.sourcelink.json
