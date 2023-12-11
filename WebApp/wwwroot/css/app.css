@@ -67,14 +67,14 @@ body {
     justify-content: space-between;
     width: 100%;
 }
-.catalog-header-btn {
+.catalog-header-btn, .add-btn {
     padding: 10px;
     background: #157004;
     color: white;
     font-weight: 500;
     text-decoration: none;
 }
-.catalog-header-btn:hover {
+.catalog-header-btn:hover, .add-btn:hover {
     background: #0e4a03;
     cursor: pointer;
 }
@@ -112,7 +112,7 @@ body {
     text-decoration: underline;
     cursor: pointer;
 }
-.catalog-element .catalog-element-btn {
+.catalog-element .catalog-element-btn, .details-btn {
     padding: 10px;
     color: white;
     font-weight: 500;
@@ -123,16 +123,16 @@ body {
     outline: none;
     border: none;
 }
-.catalog-element .catalog-element-btn.edit {
+.edit {
     background: #006bf7;
 }
-.catalog-element .catalog-element-btn.edit:hover {
+.edit:hover {
     background: #024fb5;
 }
-.catalog-element .catalog-element-btn.remove {
+.remove {
     background: #ad2a2a;
 }
-.catalog-element .catalog-element-btn.remove:hover {
+.remove:hover {
     background: #751b1b;
 }
 .catalog-element .catalog-element-btn:hover {

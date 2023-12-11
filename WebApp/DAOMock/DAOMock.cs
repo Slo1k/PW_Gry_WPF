@@ -75,6 +75,16 @@ namespace KrakowiakKozlowski.GamesCatalog.DAOMock
             }
         }
 
+        public IGame GetGameById(int id)
+        {   
+            return games.FirstOrDefault(game => game.Id == id);
+        }
+
+        public IProducer GetProducerById(int id)
+        {
+            return producers.FirstOrDefault(producer => producer.Id == id);
+        }
+
     }
 
 

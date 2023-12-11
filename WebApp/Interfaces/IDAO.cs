@@ -18,5 +18,8 @@ namespace KrakowiakKozlowski.GamesCatalog.INTERFACES
 
         void UpdateGame(IGame game);
         void UpdateProducer(IProducer producer);
+
+        IGame GetGameById(int id);
+        IProducer GetProducerById(int id);
     }
 }
