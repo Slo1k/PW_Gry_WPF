@@ -5,16 +5,16 @@ winexe
 C#
 .cs
 E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.GamesCatalog\GamesCatalog\obj\Debug\net7.0-windows\
-GamesCatalog
+KrakowiakKozlowski.GamesCatalog.UI
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.GamesCatalog\GamesCatalog\App.xaml
-11407045341
+3-60683395
 
-10-811363922
-221-2132562946
-MainWindow.xaml;
+11-828737307
+222-443630553
+GameDialog.xaml;MainWindow.xaml;ProducerDialog.xaml;
 
-False
+True
 

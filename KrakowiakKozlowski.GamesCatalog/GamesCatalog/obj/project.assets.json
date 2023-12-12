@@ -15,6 +15,19 @@
           }
         }
       },
+      "Microsoft.Data.Sqlite/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Data.Sqlite.Core": "7.0.0",
+          "SQLitePCLRaw.bundle_e_sqlite3": "2.1.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -722,6 +735,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "KrakowiakKozlowski.GamesCatalog.CORE": "1.0.0",
+          "KrakowiakKozlowski.GamesCatalog.DBSQL": "1.0.0",
           "KrakowiakKozlowski.GamesCatalog.INTERFACES": "1.0.0"
         },
         "compile": {
@@ -753,6 +767,23 @@
         },
         "runtime": {
           "bin/placeholder/KrakowiakKozlowski.GamesCatalog.DAOMock.dll": {}
+        }
+      },
+      "KrakowiakKozlowski.GamesCatalog.DBSQL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "KrakowiakKozlowski.GamesCatalog.INTERFACES": "1.0.0",
+          "Microsoft.Data.Sqlite": "7.0.0",
+          "Microsoft.Data.Sqlite.Core": "7.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.0",
+          "Microsoft.EntityFrameworkCore.Sqlite": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/KrakowiakKozlowski.GamesCatalog.DBSQL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KrakowiakKozlowski.GamesCatalog.DBSQL.dll": {}
         }
       },
       "KrakowiakKozlowski.GamesCatalog.INTERFACES/1.0.0": {
@@ -787,6 +818,19 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Microsoft.Data.Sqlite/7.0.0": {
+      "sha512": "/2UYhPUJTDjUWdCn+qiiEN672TGqa25rtnIYp9mbNI39mX47C9ArBHO3nIpa5/jO6ISy1jBzIl9Vx5Tmygu/cg==",
+      "type": "package",
+      "path": "microsoft.data.sqlite/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/_._",
+        "microsoft.data.sqlite.7.0.0.nupkg.sha512",
+        "microsoft.data.sqlite.nuspec"
       ]
     },
     "Microsoft.Data.Sqlite.Core/7.0.0": {
@@ -1726,6 +1770,11 @@
       "type": "project",
       "path": "../KrakowiakKozlowski.GamesCatalog.DAOMock/KrakowiakKozlowski.GamesCatalog.DAOMock.csproj",
       "msbuildProject": "../KrakowiakKozlowski.GamesCatalog.DAOMock/KrakowiakKozlowski.GamesCatalog.DAOMock.csproj"
+    },
+    "KrakowiakKozlowski.GamesCatalog.DBSQL/1.0.0": {
+      "type": "project",
+      "path": "../KrakowiakKozlowski.GamesCatalog.DBSQL/KrakowiakKozlowski.GamesCatalog.DBSQL.csproj",
+      "msbuildProject": "../KrakowiakKozlowski.GamesCatalog.DBSQL/KrakowiakKozlowski.GamesCatalog.DBSQL.csproj"
     },
     "KrakowiakKozlowski.GamesCatalog.INTERFACES/1.0.0": {
       "type": "project",

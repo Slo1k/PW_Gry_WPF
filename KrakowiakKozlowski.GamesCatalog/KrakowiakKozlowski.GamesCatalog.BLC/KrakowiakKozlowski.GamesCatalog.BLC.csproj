@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\KrakowiakKozlowski.GamesCatalog.CORE\KrakowiakKozlowski.GamesCatalog.CORE.csproj" />
+    <ProjectReference Include="..\KrakowiakKozlowski.GamesCatalog.DBSQL\KrakowiakKozlowski.GamesCatalog.DBSQL.csproj" />
     <ProjectReference Include="..\KrakowiakKozlowski.GamesCatalog.INTERFACES\KrakowiakKozlowski.GamesCatalog.INTERFACES.csproj" />
   </ItemGroup>
 

@@ -1,6 +1,7 @@
 ﻿using System.Reflection;
 using KrakowiakKozlowski.GamesCatalog.CORE;
 using KrakowiakKozlowski.GamesCatalog.INTERFACES;
+using KrakowiakKozlowski.GamesCatalog.DBSQL;
 
 namespace KrakowiakKozlowski.GamesCatalog.BLC
 {

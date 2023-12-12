@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "FWnN9FJe8X9pt86WUNaBpHuk5zsTBt0IdYx0g0sv2oPxcsT8sO3Bzt7PXNUig6Gdonq8gfr5VKyqq+f8HrzBWQ==",
+  "dgSpecHash": "0VBBSLuLE+BjliqizOvn+QHBXDG1lIsJ3XBPNmlJJqH+m0tPwUfDwHJfe/p8it0fNgRDj87F25y6QpKZ7FsaDA==",
   "success": true,
   "projectFilePath": "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.GamesCatalog\\GamesCatalog\\GamesCatalog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mikolaj\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.data.sqlite\\7.0.0\\microsoft.data.sqlite.7.0.0.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.0\\microsoft.data.sqlite.core.7.0.0.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.0\\microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",

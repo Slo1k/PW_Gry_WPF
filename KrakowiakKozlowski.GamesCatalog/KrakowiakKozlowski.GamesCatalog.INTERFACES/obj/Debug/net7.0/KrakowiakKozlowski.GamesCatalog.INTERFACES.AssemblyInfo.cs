@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KrakowiakKozlowski.GamesCatalog.INTERFACES")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3851c7ce95f0ae352bf4a2429a1fe225815df65")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+779307f271b9719d04e43feebb131f91c518327d")]
 [assembly: System.Reflection.AssemblyProductAttribute("KrakowiakKozlowski.GamesCatalog.INTERFACES")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KrakowiakKozlowski.GamesCatalog.INTERFACES")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

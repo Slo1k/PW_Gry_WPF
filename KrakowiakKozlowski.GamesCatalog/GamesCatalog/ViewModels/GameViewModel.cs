@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using KrakowiakKozlowski.GamesCatalog.INTERFACES;
 using KrakowiakKozlowski.GamesCatalog.CORE;
 
-namespace KrakowiakKozlows.GamesCatalog.UI.ViewModels
+namespace KrakowiakKozlowski.GamesCatalog.UI.ViewModels
 {
     public class GameViewModel: INotifyPropertyChanged
     {
