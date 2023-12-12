@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/3asAHewBcq+BcLi1b9AVh2jGCMpOyby+UG6WLNZMmllVGgCn7gNX8HSwPDNe42VYiUdm3Z362N6rWSGVzblVA==",
+  "dgSpecHash": "vxnm9GH//BQyik53fBy5P2Y9HX12RUqCSpwDyV20LXApc9Ug1Qx8GnboZmEvi2nBrGHJE0YBuvEj9U8OIhVM7A==",
   "success": true,
   "projectFilePath": "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.GamesCatalog\\KrakowiakKozlowski.GamesCatalog.DBSQL\\KrakowiakKozlowski.GamesCatalog.DBSQL.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.0\\microsoft.entityframeworkcore.relational.7.0.0.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\7.0.0\\microsoft.entityframeworkcore.sqlite.7.0.0.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\7.0.0\\microsoft.entityframeworkcore.sqlite.core.7.0.0.nupkg.sha512",
+    "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.0\\microsoft.entityframeworkcore.tools.7.0.0.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
