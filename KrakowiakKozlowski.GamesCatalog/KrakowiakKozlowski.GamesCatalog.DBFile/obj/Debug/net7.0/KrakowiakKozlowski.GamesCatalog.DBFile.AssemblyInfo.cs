@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KrakowiakKozlowski.GamesCatalog.DBFile")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ab07e3c53ac3ac09b43a0292b91c7397746fbbc")]
 [assembly: System.Reflection.AssemblyProductAttribute("KrakowiakKozlowski.GamesCatalog.DBFile")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KrakowiakKozlowski.GamesCatalog.DBFile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

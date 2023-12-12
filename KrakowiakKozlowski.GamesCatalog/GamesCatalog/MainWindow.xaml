@@ -65,14 +65,14 @@
                                 <GridViewColumn Header="Game" Width="{Binding ElementName=GameTitleColumnWidth, Path=Text}">
                                     <GridViewColumn.CellTemplate>
                                         <DataTemplate>
-                                            <TextBlock Text="{Binding GameModel}" />
+                                            <TextBlock Text="{Binding GameTitle}" />
                                         </DataTemplate>
                                     </GridViewColumn.CellTemplate>
                                 </GridViewColumn>
                                 <GridViewColumn Header="Producer" Width="{Binding ElementName=ProducerNameColumnWidth, Path=Text}">
                                     <GridViewColumn.CellTemplate>
                                         <DataTemplate>
-                                            <TextBlock Text="{Binding ProducerModel}" />
+                                            <TextBlock Text="{Binding GameProducerName}" />
                                         </DataTemplate>
                                     </GridViewColumn.CellTemplate>
                                 </GridViewColumn>

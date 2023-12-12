@@ -30,7 +30,7 @@ namespace KrakowiakKozlowski.GamesCatalog.UI
 
         private readonly BL.BLC blc;
 
-        private string selectedDataSource = "GamesCatalog.DAOMock.dll";
+        private string selectedDataSource = "KrakowiakKozlowski.GamesCatalog.DAOMock.dll";
 
         public MainWindow()
         {
