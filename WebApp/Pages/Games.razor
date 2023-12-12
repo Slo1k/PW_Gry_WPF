@@ -30,6 +30,21 @@
             class='catalog-input'
             @bind="searchTerm"
         />
+        <select @bind="selectedGenreString" 
+            style="
+                outline: none;
+                border: 1px solid black;
+                font-size: 20px;
+                padding: 10px;
+                box-sizing: border-box;
+            "
+        >
+            <option value="">Any</option>
+            @foreach (var genre in Enum.GetValues(typeof(KrakowiakKozlowski.GamesCatalog.CORE.GameGenre)))
+            {
+                <option value="@genre.ToString()">@genre</option>
+            }
+        </select>
         <button 
             class="catalog-input-btn" 
             @onclick="Search"
@@ -97,6 +112,8 @@
 @code {
     private string searchTerm = "";
     private bool isConfirmModalOpen = false;
+    private string selectedGenreString = ""; // String representation of the selected genre
+    private KrakowiakKozlowski.GamesCatalog.CORE.GameGenre? selectedGenre; // Make it nullable
     private KrakowiakKozlowski.GamesCatalog.INTERFACES.IGame? selectedGame;
 
     List<KrakowiakKozlowski.GamesCatalog.INTERFACES.IGame> games;
@@ -134,8 +151,15 @@
     }
     private void Search()
     {
+        selectedGenre = string.IsNullOrWhiteSpace(selectedGenreString)
+            ? (KrakowiakKozlowski.GamesCatalog.CORE.GameGenre?)null
+            : Enum.Parse<KrakowiakKozlowski.GamesCatalog.CORE.GameGenre>(selectedGenreString);
+
         filteredGames = games
-            .Where(game => game.Title.Contains(searchTerm, StringComparison.OrdinalIgnoreCase))
+            .Where(game =>
+                (string.IsNullOrWhiteSpace(searchTerm) || game.Title.Contains(searchTerm, StringComparison.OrdinalIgnoreCase))
+                && (!selectedGenre.HasValue || game.Genre == selectedGenre)
+            )
             .ToList();
     }
     protected override void OnInitialized()
