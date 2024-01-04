@@ -38,11 +38,6 @@
                     <Button Margin="0,0,0,5" Click="RemoveGame">Remove selected game</Button>
                     <Button Margin="0,0,0,5" Click="AddGame">Add new game</Button>
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock Margin="5" Padding="2">Data source (.dll):</TextBlock>
-                        <TextBox Margin="5" Padding="2" Name="datasource" MinWidth="100">GamesCatalog.DAOMock.dll</TextBox>
-                        <Button Margin="5" Padding="2" Click="ApplyNewDataSource">Apply</Button>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal">
                         <TextBlock Margin="5" Padding="2">Filter by:</TextBlock>
                         <ComboBox Margin="5" Padding="2" Name="filterTypeComboBox" MinWidth="100">
                             <ComboBoxItem Content="Genre" />

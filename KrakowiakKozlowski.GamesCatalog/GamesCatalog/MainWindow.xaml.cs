@@ -41,21 +41,6 @@ namespace KrakowiakKozlowski.GamesCatalog.UI
 
             InitializeComponent();
         }
-        private void ApplyNewDataSource(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                blc.LoadDatasource(datasource.Text);
-                ProducerLVM.RefreshList(blc.GetAllProducers());
-                GameLVM.RefreshList(blc.GetAllGames());
-                selectedDataSource = datasource.Text;
-            }
-            catch
-            {
-                MessageBox.Show("Error occurred, check your input values!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                blc.LoadDatasource(selectedDataSource);
-            }
-        }
 
         #region Filters
         private void ApplyGameSearch(object sender, RoutedEventArgs e)
