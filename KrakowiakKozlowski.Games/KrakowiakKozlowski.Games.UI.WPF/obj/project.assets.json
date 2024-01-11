@@ -1403,11 +1403,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mikolaj\\Desktop\\WPF DONE DAOMOCK\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.UI.WPF\\KrakowiakKozlowski.Games.UI.WPF.csproj",
+      "projectUniqueName": "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.UI.WPF\\KrakowiakKozlowski.Games.UI.WPF.csproj",
       "projectName": "KrakowiakKozlowski.Games.UI.WPF",
-      "projectPath": "C:\\Users\\Mikolaj\\Desktop\\WPF DONE DAOMOCK\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.UI.WPF\\KrakowiakKozlowski.Games.UI.WPF.csproj",
+      "projectPath": "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.UI.WPF\\KrakowiakKozlowski.Games.UI.WPF.csproj",
       "packagesPath": "C:\\Users\\Mikolaj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mikolaj\\Desktop\\WPF DONE DAOMOCK\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.UI.WPF\\obj\\",
+      "outputPath": "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.UI.WPF\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mikolaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1424,20 +1424,20 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "projectReferences": {
-            "C:\\Users\\Mikolaj\\Desktop\\WPF DONE DAOMOCK\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.BL\\KrakowiakKozlowski.Games.BL.csproj": {
-              "projectPath": "C:\\Users\\Mikolaj\\Desktop\\WPF DONE DAOMOCK\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.BL\\KrakowiakKozlowski.Games.BL.csproj"
+            "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.BL\\KrakowiakKozlowski.Games.BL.csproj": {
+              "projectPath": "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.BL\\KrakowiakKozlowski.Games.BL.csproj"
             },
-            "C:\\Users\\Mikolaj\\Desktop\\WPF DONE DAOMOCK\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.CORE\\KrakowiakKozlowski.Games.CORE.csproj": {
-              "projectPath": "C:\\Users\\Mikolaj\\Desktop\\WPF DONE DAOMOCK\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.CORE\\KrakowiakKozlowski.Games.CORE.csproj"
+            "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.CORE\\KrakowiakKozlowski.Games.CORE.csproj": {
+              "projectPath": "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.CORE\\KrakowiakKozlowski.Games.CORE.csproj"
             },
-            "C:\\Users\\Mikolaj\\Desktop\\WPF DONE DAOMOCK\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.DAOMOCK\\KrakowiakKozlowski.Games.DAOMOCK.csproj": {
-              "projectPath": "C:\\Users\\Mikolaj\\Desktop\\WPF DONE DAOMOCK\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.DAOMOCK\\KrakowiakKozlowski.Games.DAOMOCK.csproj"
+            "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.DAOMOCK\\KrakowiakKozlowski.Games.DAOMOCK.csproj": {
+              "projectPath": "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.DAOMOCK\\KrakowiakKozlowski.Games.DAOMOCK.csproj"
             },
-            "C:\\Users\\Mikolaj\\Desktop\\WPF DONE DAOMOCK\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.DAOSQL\\KrakowiakKozlowski.Games.DAOSQL.csproj": {
-              "projectPath": "C:\\Users\\Mikolaj\\Desktop\\WPF DONE DAOMOCK\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.DAOSQL\\KrakowiakKozlowski.Games.DAOSQL.csproj"
+            "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.DAOSQL\\KrakowiakKozlowski.Games.DAOSQL.csproj": {
+              "projectPath": "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.DAOSQL\\KrakowiakKozlowski.Games.DAOSQL.csproj"
             },
-            "C:\\Users\\Mikolaj\\Desktop\\WPF DONE DAOMOCK\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.INTERFACES\\KrakowiakKozlowski.Games.INTERFACES.csproj": {
-              "projectPath": "C:\\Users\\Mikolaj\\Desktop\\WPF DONE DAOMOCK\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.INTERFACES\\KrakowiakKozlowski.Games.INTERFACES.csproj"
+            "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.INTERFACES\\KrakowiakKozlowski.Games.INTERFACES.csproj": {
+              "projectPath": "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.INTERFACES\\KrakowiakKozlowski.Games.INTERFACES.csproj"
             }
           }
         }

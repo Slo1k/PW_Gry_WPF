@@ -17,6 +17,7 @@
     <ProjectReference Include="..\KrakowiakKozlowski.Games.DAOMOCK\KrakowiakKozlowski.Games.DAOMOCK.csproj" />
     <ProjectReference Include="..\KrakowiakKozlowski.Games.DAOSQL\KrakowiakKozlowski.Games.DAOSQL.csproj" />
     <ProjectReference Include="..\KrakowiakKozlowski.Games.INTERFACES\KrakowiakKozlowski.Games.INTERFACES.csproj" />
+    <ProjectReference Include="..\KrakowiakKozlowski.Games.UI.WPF\KrakowiakKozlowski.Games.UI.WPF.csproj" />
   </ItemGroup>
 
 </Project>

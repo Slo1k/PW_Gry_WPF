@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d9YiNvFEe7P8HWfls/FnN50y0Odt4OGrLMLsK/EenoVqEcetj+QlA9t5nRLNZ0j0sX7T3NagdSlW/peWlhCoHA==",
+  "dgSpecHash": "V+WmlVWx0tjCqZgL6C7kqbcAywzJvWyOxO+bMlGgqY6/6Vh80bBwXKyZE4EyES2F76uxOQjhfNj1Gl4yLXheOw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mikolaj\\Desktop\\WPF DONE DAOMOCK\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.UI.WPF\\KrakowiakKozlowski.Games.UI.WPF.csproj",
+  "projectFilePath": "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.UI.WPF\\KrakowiakKozlowski.Games.UI.WPF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mikolaj\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.15\\microsoft.data.sqlite.core.7.0.15.nupkg.sha512",

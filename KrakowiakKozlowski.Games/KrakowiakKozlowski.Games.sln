@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KrakowiakKozlowski.Games.DA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KrakowiakKozlowski.Games.DAOMOCK", "KrakowiakKozlowski.Games.DAOMOCK\KrakowiakKozlowski.Games.DAOMOCK.csproj", "{ADF7CA99-537B-4842-84A0-D82B1AE6FC33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KrakowiakKozlowski.Games.UI.WEB", "KrakowiakKozlowski.Games.UI.WEB\KrakowiakKozlowski.Games.UI.WEB.csproj", "{D52EFA4F-E77E-4A6B-868A-EFFB19A05348}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KrakowiakKozlowski.Games.UI.WEB", "KrakowiakKozlowski.Games.UI.WEB\KrakowiakKozlowski.Games.UI.WEB.csproj", "{D52EFA4F-E77E-4A6B-868A-EFFB19A05348}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamesCatalog", "WebApp\GamesCatalog.csproj", "{A42273B0-E29F-41EE-8122-961AC14A3B8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{D52EFA4F-E77E-4A6B-868A-EFFB19A05348}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D52EFA4F-E77E-4A6B-868A-EFFB19A05348}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D52EFA4F-E77E-4A6B-868A-EFFB19A05348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A42273B0-E29F-41EE-8122-961AC14A3B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A42273B0-E29F-41EE-8122-961AC14A3B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A42273B0-E29F-41EE-8122-961AC14A3B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A42273B0-E29F-41EE-8122-961AC14A3B8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
