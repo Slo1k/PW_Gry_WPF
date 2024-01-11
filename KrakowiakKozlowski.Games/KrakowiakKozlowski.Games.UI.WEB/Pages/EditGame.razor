@@ -1,0 +1,123 @@
+﻿@page "/editgame/{gameId:int}"
+@inject KrakowiakKozlowski.Games.INTERFACES.IDAO DAO
+@inject NavigationManager NavManager
+
+<div class="wrapper">
+    @if (game is null)
+    {
+        <h1>
+            No game of ID: @gameId
+        </h1>
+    }
+    @if (game is not null)
+    {
+            <h1>
+                Edit Game
+            </h1>
+            <form class='form' @onsubmit="HandleFormSubmit">
+                <label for="game-title">
+                    Name
+                </label>
+                <input id="game-title" type="text" @bind-value="formModel.Title" required />
+
+                <label for="game-releaseyear">
+                    Release Year
+                </label>
+                <input id="game-releaseyear" type="number" @bind-value="formModel.ReleaseYear" required />
+
+                <label for="game-score">
+                    Score
+                </label>
+                <input id="game-score" type="number" @bind-value="formModel.Score" required />
+
+                <label for="game-producer">
+                    Producer
+                </label>
+                <select id="game-producer" @bind="formModel.ProducerId" required>
+                @foreach (var producer in producers)
+                {
+                            <option value="@producer.Id">@producer.Name</option>
+                }
+                </select>
+
+                <label for="game-genre">
+                    Genre
+                </label>
+                <select id="game-genre" @bind="formModel.Genre" required>
+                @foreach (var genre in Enum.GetNames(typeof(KrakowiakKozlowski.Games.CORE.GameGenre)))
+                {
+                            <option value="@genre">@genre</option>
+                }
+                </select>
+
+                <button 
+                    class="add-btn"
+                    type="submit"
+                >
+                    Confirm Edit
+                </button>
+            </form>
+    }
+</div>
+
+@code {
+    [Parameter] public int gameId { get; set; }
+    private FormModel formModel = new FormModel();
+
+    private class FormModel
+    {
+        public string Title { get; set; }
+        public int ReleaseYear { get; set; }
+        public int Score { get; set; }
+        public int ProducerId { get; set; }
+        public KrakowiakKozlowski.Games.CORE.GameGenre Genre { get; set; }
+    }
+    private KrakowiakKozlowski.Games.INTERFACES.IGame? game;
+    private KrakowiakKozlowski.Games.INTERFACES.IGame editGame = new KrakowiakKozlowski.Games.DAOMOCK.DO.Game();
+
+    private void HandleFormSubmit()
+    {
+
+        editGame.Id = gameId;
+        editGame.Title = formModel.Title;
+        editGame.ReleaseYear = formModel.ReleaseYear;
+        editGame.Score = formModel.Score;
+        editGame.Genre = formModel.Genre;
+        editGame.Producer = producers.FirstOrDefault(p => p.Id == formModel.ProducerId);
+
+        if (!Validate())
+        {
+            return;
+        }
+
+        DAO.UpdateGame(editGame);
+
+        // Reset the form
+        formModel = new FormModel();
+
+        NavManager.NavigateTo("/games");
+    }
+    private bool Validate()
+    {
+        if (editGame.Title.Length > 0 && editGame.Producer is not null)
+        {
+            return true;
+        }
+        return false;
+    }
+
+    private List<KrakowiakKozlowski.Games.INTERFACES.IProducer> producers;
+    protected override void OnInitialized()
+    {
+        producers = DAO.GetAllProducers().ToList();
+        game = DAO.GetGameById(gameId);
+        if (game is not null)
+        {
+            formModel.Title = game.Title;
+            formModel.ReleaseYear = game.ReleaseYear;
+            formModel.Score = game.Score;
+            formModel.Genre = game.Genre;
+            formModel.ProducerId = game.Producer.Id;
+        }
+    }
+}

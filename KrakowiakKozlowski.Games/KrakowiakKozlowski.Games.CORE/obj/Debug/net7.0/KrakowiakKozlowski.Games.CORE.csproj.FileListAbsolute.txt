@@ -1,0 +1,27 @@
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\bin\Debug\net7.0\KrakowiakKozlowski.Games.CORE.deps.json
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\bin\Debug\net7.0\KrakowiakKozlowski.Games.CORE.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\KrakowiakKozlowski.Games.CORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\KrakowiakKozlowski.Games.CORE.AssemblyInfoInputs.cache
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\KrakowiakKozlowski.Games.CORE.AssemblyInfo.cs
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\KrakowiakKozlowski.Games.CORE.csproj.CoreCompileInputs.cache
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\KrakowiakKozlowski.Games.CORE.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\refint\KrakowiakKozlowski.Games.CORE.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\ref\KrakowiakKozlowski.Games.CORE.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\bin\Debug\net7.0\KrakowiakKozlowski.Games.CORE.deps.json
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\bin\Debug\net7.0\KrakowiakKozlowski.Games.CORE.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\KrakowiakKozlowski.Games.CORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\KrakowiakKozlowski.Games.CORE.AssemblyInfoInputs.cache
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\KrakowiakKozlowski.Games.CORE.AssemblyInfo.cs
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\KrakowiakKozlowski.Games.CORE.csproj.CoreCompileInputs.cache
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\KrakowiakKozlowski.Games.CORE.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\refint\KrakowiakKozlowski.Games.CORE.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\ref\KrakowiakKozlowski.Games.CORE.dll
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\bin\Debug\net7.0\KrakowiakKozlowski.Games.CORE.deps.json
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\bin\Debug\net7.0\KrakowiakKozlowski.Games.CORE.dll
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\KrakowiakKozlowski.Games.CORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\KrakowiakKozlowski.Games.CORE.AssemblyInfoInputs.cache
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\KrakowiakKozlowski.Games.CORE.AssemblyInfo.cs
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\KrakowiakKozlowski.Games.CORE.csproj.CoreCompileInputs.cache
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\KrakowiakKozlowski.Games.CORE.dll
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\refint\KrakowiakKozlowski.Games.CORE.dll
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\ref\KrakowiakKozlowski.Games.CORE.dll

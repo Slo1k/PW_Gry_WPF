@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Mikolaj\\Desktop\\WPF DONE DAOMOCK\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.UI.WEB\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Mikolaj\\Desktop\\WPF DONE DAOMOCK\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.UI.WEB\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.KrakowiakKozlowski.Games.UI.WEB.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.KrakowiakKozlowski.Games.UI.WEB.props",
+      "PackagePath": "build\\KrakowiakKozlowski.Games.UI.WEB.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.KrakowiakKozlowski.Games.UI.WEB.props",
+      "PackagePath": "buildMultiTargeting\\KrakowiakKozlowski.Games.UI.WEB.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.KrakowiakKozlowski.Games.UI.WEB.props",
+      "PackagePath": "buildTransitive\\KrakowiakKozlowski.Games.UI.WEB.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

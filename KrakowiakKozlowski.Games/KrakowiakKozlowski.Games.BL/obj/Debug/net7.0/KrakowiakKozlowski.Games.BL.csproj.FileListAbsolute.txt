@@ -1,0 +1,42 @@
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\bin\Debug\net7.0\KrakowiakKozlowski.Games.BL.deps.json
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\bin\Debug\net7.0\KrakowiakKozlowski.Games.BL.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\bin\Debug\net7.0\KrakowiakKozlowski.Games.CORE.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\bin\Debug\net7.0\KrakowiakKozlowski.Games.INTERFACES.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\bin\Debug\net7.0\KrakowiakKozlowski.Games.INTERFACES.pdb
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\KrakowiakKozlowski.Games.BL.csproj.AssemblyReference.cache
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\KrakowiakKozlowski.Games.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\KrakowiakKozlowski.Games.BL.AssemblyInfoInputs.cache
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\KrakowiakKozlowski.Games.BL.AssemblyInfo.cs
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\KrakowiakKozlowski.Games.BL.csproj.CoreCompileInputs.cache
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\KrakowiakKozlowski.Games.BL.csproj.CopyComplete
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\KrakowiakKozlowski.Games.BL.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\refint\KrakowiakKozlowski.Games.BL.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\ref\KrakowiakKozlowski.Games.BL.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\bin\Debug\net7.0\KrakowiakKozlowski.Games.BL.deps.json
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\bin\Debug\net7.0\KrakowiakKozlowski.Games.BL.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\bin\Debug\net7.0\KrakowiakKozlowski.Games.CORE.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\bin\Debug\net7.0\KrakowiakKozlowski.Games.INTERFACES.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\bin\Debug\net7.0\KrakowiakKozlowski.Games.INTERFACES.pdb
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\KrakowiakKozlowski.Games.BL.csproj.AssemblyReference.cache
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\KrakowiakKozlowski.Games.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\KrakowiakKozlowski.Games.BL.AssemblyInfoInputs.cache
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\KrakowiakKozlowski.Games.BL.AssemblyInfo.cs
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\KrakowiakKozlowski.Games.BL.csproj.CoreCompileInputs.cache
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\KrakowiakKozlowski.Games.BL.csproj.CopyComplete
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\KrakowiakKozlowski.Games.BL.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\refint\KrakowiakKozlowski.Games.BL.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\ref\KrakowiakKozlowski.Games.BL.dll
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\bin\Debug\net7.0\KrakowiakKozlowski.Games.BL.deps.json
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\bin\Debug\net7.0\KrakowiakKozlowski.Games.BL.dll
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\bin\Debug\net7.0\KrakowiakKozlowski.Games.CORE.dll
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\bin\Debug\net7.0\KrakowiakKozlowski.Games.INTERFACES.dll
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\bin\Debug\net7.0\KrakowiakKozlowski.Games.INTERFACES.pdb
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\KrakowiakKozlowski.Games.BL.csproj.AssemblyReference.cache
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\KrakowiakKozlowski.Games.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\KrakowiakKozlowski.Games.BL.AssemblyInfoInputs.cache
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\KrakowiakKozlowski.Games.BL.AssemblyInfo.cs
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\KrakowiakKozlowski.Games.BL.csproj.CoreCompileInputs.cache
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\KrakowiakKozlowski.Games.BL.csproj.CopyComplete
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\KrakowiakKozlowski.Games.BL.dll
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\refint\KrakowiakKozlowski.Games.BL.dll
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.BL\obj\Debug\net7.0\ref\KrakowiakKozlowski.Games.BL.dll

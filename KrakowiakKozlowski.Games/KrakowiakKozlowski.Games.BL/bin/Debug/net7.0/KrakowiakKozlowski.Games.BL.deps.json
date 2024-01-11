@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "KrakowiakKozlowski.Games.BL/1.0.0": {
+        "dependencies": {
+          "KrakowiakKozlowski.Games.INTERFACES": "1.0.0"
+        },
+        "runtime": {
+          "KrakowiakKozlowski.Games.BL.dll": {}
+        }
+      },
+      "KrakowiakKozlowski.Games.CORE/1.0.0": {
+        "runtime": {
+          "KrakowiakKozlowski.Games.CORE.dll": {}
+        }
+      },
+      "KrakowiakKozlowski.Games.INTERFACES/1.0.0": {
+        "dependencies": {
+          "KrakowiakKozlowski.Games.CORE": "1.0.0"
+        },
+        "runtime": {
+          "KrakowiakKozlowski.Games.INTERFACES.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KrakowiakKozlowski.Games.BL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KrakowiakKozlowski.Games.CORE/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KrakowiakKozlowski.Games.INTERFACES/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

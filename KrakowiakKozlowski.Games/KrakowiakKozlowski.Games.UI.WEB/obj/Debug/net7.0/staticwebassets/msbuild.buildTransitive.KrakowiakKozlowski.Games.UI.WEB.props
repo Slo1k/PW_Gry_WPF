@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\KrakowiakKozlowski.Games.UI.WEB.props" />
+</Project>

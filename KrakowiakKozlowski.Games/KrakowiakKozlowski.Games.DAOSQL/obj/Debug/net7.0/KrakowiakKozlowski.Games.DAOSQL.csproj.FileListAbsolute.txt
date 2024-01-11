@@ -1,0 +1,57 @@
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.deps.json
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.runtimeconfig.json
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.pdb
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\KrakowiakKozlowski.Games.CORE.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\KrakowiakKozlowski.Games.INTERFACES.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\KrakowiakKozlowski.Games.INTERFACES.pdb
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.csproj.AssemblyReference.cache
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.AssemblyInfoInputs.cache
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.AssemblyInfo.cs
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.csproj.CoreCompileInputs.cache
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.csproj.CopyComplete
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\refint\KrakowiakKozlowski.Games.DAOSQL.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.pdb
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.genruntimeconfig.cache
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\ref\KrakowiakKozlowski.Games.DAOSQL.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.csproj.AssemblyReference.cache
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.AssemblyInfoInputs.cache
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.AssemblyInfo.cs
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.csproj.CoreCompileInputs.cache
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\refint\KrakowiakKozlowski.Games.DAOSQL.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.pdb
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.deps.json
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.runtimeconfig.json
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.pdb
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\KrakowiakKozlowski.Games.CORE.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\KrakowiakKozlowski.Games.INTERFACES.dll
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\KrakowiakKozlowski.Games.INTERFACES.pdb
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.csproj.CopyComplete
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.genruntimeconfig.cache
+C:\Users\Mikolaj\Desktop\PROJEKTWIZUALNE — kopia\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\ref\KrakowiakKozlowski.Games.DAOSQL.dll
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.deps.json
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.runtimeconfig.json
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.dll
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.pdb
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\KrakowiakKozlowski.Games.CORE.dll
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\KrakowiakKozlowski.Games.INTERFACES.dll
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\KrakowiakKozlowski.Games.INTERFACES.pdb
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.csproj.AssemblyReference.cache
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.AssemblyInfoInputs.cache
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.AssemblyInfo.cs
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.csproj.CoreCompileInputs.cache
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.csproj.CopyComplete
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.dll
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\refint\KrakowiakKozlowski.Games.DAOSQL.dll
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.pdb
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.genruntimeconfig.cache
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\obj\Debug\net7.0\ref\KrakowiakKozlowski.Games.DAOSQL.dll
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\DAOSQL.db
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\DAOSQL.db-shm
+C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\DAOSQL.db-wal

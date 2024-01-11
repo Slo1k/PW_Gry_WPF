@@ -1,0 +1,170 @@
+﻿@page "/games"
+@inject KrakowiakKozlowski.Games.INTERFACES.IDAO DAO
+@using KrakowiakKozlowski.Games.UI.WEB.Components
+@inject NavigationManager NavManager
+
+<PageTitle>
+    Games Catalog - Games
+</PageTitle>
+
+<div class="wrapper">
+    <div
+        class='catalog-header'
+    >
+        <h1>Games</h1>
+        <NavLink
+            href="NewGame"
+            style="text-decoration: none"
+        >
+            <div class='catalog-header-btn'>
+                Add New Game
+            </div>
+        </NavLink>
+    </div>
+    <div
+        style="display: flex; gap: 10px; width: 100%; margin-bottom: 10px"
+    >
+        <input
+            type="text"
+            placeholder="Search Games by Title"
+            class='catalog-input'
+            @bind="searchTerm"
+        />
+        <select @bind="selectedGenreString" 
+            style="
+                outline: none;
+                border: 1px solid black;
+                font-size: 20px;
+                padding: 10px;
+                box-sizing: border-box;
+            "
+        >
+            <option value="">Any</option>
+            @foreach (var genre in Enum.GetValues(typeof(KrakowiakKozlowski.Games.CORE.GameGenre)))
+            {
+                <option value="@genre.ToString()">@genre</option>
+            }
+        </select>
+        <button 
+            class="catalog-input-btn" 
+            @onclick="Search"
+        >
+            Search
+        </button>
+    </div>
+    <div
+        class="catalog-container"
+    >
+    @if(filteredGames.Any())
+    {
+        @foreach (var game in filteredGames)
+        {
+            <div class="catalog-element">
+                
+                <NavLink
+                    href="@($"game/{game.Id}")"
+                    style="text-decoration: none; color: black"
+                >
+                    <span>@game.Title</span>
+                </NavLink>
+                <div>
+                    <button 
+                        class="catalog-element-btn edit"
+                        @onclick="() => NavigateToEdit(game.Id)"
+                    >
+                        edit
+                    </button>
+                    <button 
+                        class="catalog-element-btn remove"
+                        @onclick="() => ShowRemoveConfirmation(game)"
+                    >
+                        remove
+                    </button>
+                </div>
+            </div>
+        }
+    }
+    @if(filteredGames == null || filteredGames.Count == 0) {
+        <div style='text-align: center; padding: 10px 0'>
+            No producers to display
+        </div>
+    }
+    </div>
+    <NavLink
+        href="/"
+        style="text-decoration: none"
+    >
+        <span class='back-btn'>
+            Go Back to <strong>Main Page</strong>
+        </span>
+    </NavLink>
+</div>
+
+@if(isConfirmModalOpen) {
+    <ConfirmModal 
+        OnConfirm="HandleConfirm"
+        OnCancel="HandleCancel" 
+    >
+        Are you sure you want to remove <strong>"@selectedGame.Title"</strong>? 
+    </ConfirmModal>
+}
+
+@code {
+    private string searchTerm = "";
+    private bool isConfirmModalOpen = false;
+    private string selectedGenreString = ""; // String representation of the selected genre
+    private KrakowiakKozlowski.Games.CORE.GameGenre? selectedGenre; // Make it nullable
+    private KrakowiakKozlowski.Games.INTERFACES.IGame? selectedGame;
+
+    List<KrakowiakKozlowski.Games.INTERFACES.IGame> games;
+    private List<KrakowiakKozlowski.Games.INTERFACES.IGame> filteredGames = new List<KrakowiakKozlowski.Games.INTERFACES.IGame>();
+   
+    private void NavigateToEdit(int id)
+    {
+        NavManager.NavigateTo("/editgame/" + id);
+    }
+    private void ShowRemoveConfirmation(KrakowiakKozlowski.Games.INTERFACES.IGame game)
+    {
+        selectedGame = game;
+        isConfirmModalOpen = true;
+    }
+    private void HandleCancel()
+    {
+        // Reset the flag
+        isConfirmModalOpen = false;
+        selectedGame = null;
+    }
+    private void HandleConfirm()
+    {
+        if (selectedGame != null)
+        {
+            // TODO: Implement the logic to delete the selected producer
+            DAO.RemoveGame(selectedGame.Id);
+            
+            // Refresh the producers list
+            games = DAO.GetAllGames().ToList();
+        }
+
+        // Reset the flag and selected producer
+        isConfirmModalOpen = false;
+        selectedGame = null;
+    }
+    private void Search()
+    {
+        selectedGenre = string.IsNullOrWhiteSpace(selectedGenreString)
+            ? (KrakowiakKozlowski.Games.CORE.GameGenre?)null
+            : Enum.Parse<KrakowiakKozlowski.Games.CORE.GameGenre>(selectedGenreString);
+
+        filteredGames = games
+            .Where(game =>
+                (string.IsNullOrWhiteSpace(searchTerm) || game.Title.Contains(searchTerm, StringComparison.OrdinalIgnoreCase))
+                && (!selectedGenre.HasValue || game.Genre == selectedGenre)
+            )
+            .ToList();
+    }
+    protected override void OnInitialized()
+    {
+        games = DAO.GetAllGames().ToList();
+        filteredGames = games;
+    }
+}

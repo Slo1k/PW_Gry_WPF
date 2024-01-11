@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.15">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KrakowiakKozlowski.Games.BL\KrakowiakKozlowski.Games.BL.csproj" />
+    <ProjectReference Include="..\KrakowiakKozlowski.Games.CORE\KrakowiakKozlowski.Games.CORE.csproj" />
+    <ProjectReference Include="..\KrakowiakKozlowski.Games.DAOMOCK\KrakowiakKozlowski.Games.DAOMOCK.csproj" />
+    <ProjectReference Include="..\KrakowiakKozlowski.Games.DAOSQL\KrakowiakKozlowski.Games.DAOSQL.csproj" />
+    <ProjectReference Include="..\KrakowiakKozlowski.Games.INTERFACES\KrakowiakKozlowski.Games.INTERFACES.csproj" />
+  </ItemGroup>
+
+</Project>

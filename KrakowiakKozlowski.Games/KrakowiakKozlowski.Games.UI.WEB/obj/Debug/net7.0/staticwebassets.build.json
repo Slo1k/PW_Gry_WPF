@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "ltUwvpe/MD0lpfce2C82MFItmuWmkQBMX2NsPJZn+dU=",
+  "Source": "KrakowiakKozlowski.Games.UI.WEB",
+  "BasePath": "_content/KrakowiakKozlowski.Games.UI.WEB",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "KrakowiakKozlowski.Games.UI.WEB\\wwwroot",
+      "Source": "KrakowiakKozlowski.Games.UI.WEB",
+      "ContentRoot": "C:\\Users\\Mikolaj\\Desktop\\WPF DONE DAOMOCK\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.UI.WEB\\wwwroot\\",
+      "BasePath": "_content/KrakowiakKozlowski.Games.UI.WEB",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Mikolaj\\Desktop\\WPF DONE DAOMOCK\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.UI.WEB\\wwwroot\\css\\app.css",
+      "SourceId": "KrakowiakKozlowski.Games.UI.WEB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mikolaj\\Desktop\\WPF DONE DAOMOCK\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.UI.WEB\\wwwroot\\",
+      "BasePath": "_content/KrakowiakKozlowski.Games.UI.WEB",
+      "RelativePath": "css/app.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\app.css"
+    },
+    {
+      "Identity": "C:\\Users\\Mikolaj\\Desktop\\WPF DONE DAOMOCK\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.UI.WEB\\wwwroot\\index.html",
+      "SourceId": "KrakowiakKozlowski.Games.UI.WEB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mikolaj\\Desktop\\WPF DONE DAOMOCK\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.UI.WEB\\wwwroot\\",
+      "BasePath": "_content/KrakowiakKozlowski.Games.UI.WEB",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
