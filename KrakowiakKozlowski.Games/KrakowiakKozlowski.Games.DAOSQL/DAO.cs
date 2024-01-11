@@ -10,13 +10,10 @@ namespace KrakowiakKozlowski.Games.DAOSQL
 {
     public class DAO : IDAO
     {
-        DataContext context = null;
-
+        DataContext context;
 
         public DAO()
         {
-            var optionsBuilder = new DbContextOptionsBuilder<DataContext>();
-            optionsBuilder.UseSqlite("Data source=DAOSQL.db");
             context = new DataContext();
         }
 

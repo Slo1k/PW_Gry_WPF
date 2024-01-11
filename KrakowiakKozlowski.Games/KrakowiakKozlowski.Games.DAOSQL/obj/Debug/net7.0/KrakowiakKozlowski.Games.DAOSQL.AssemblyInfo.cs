@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KrakowiakKozlowski.Games.DAOSQL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95f0bf46a786abc0fc0006c95196b06a631bab53")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be5d9b31db2eac6041853eb1194e1d70aa43b98c")]
 [assembly: System.Reflection.AssemblyProductAttribute("KrakowiakKozlowski.Games.DAOSQL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KrakowiakKozlowski.Games.DAOSQL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

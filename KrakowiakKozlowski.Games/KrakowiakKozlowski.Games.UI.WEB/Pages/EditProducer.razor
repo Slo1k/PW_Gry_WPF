@@ -1,43 +1,50 @@
-﻿@page "/editproducer/{producerId:int}"
-@inject KrakowiakKozlowski.Games.INTERFACES.IDAO DAO
+@page "/editproducer/{producerId:int}"
+@using KrakowiakKozlowski.Games.BL
 @inject NavigationManager NavManager
 
 <div class="wrapper">
-    @if (producer is null)
+    @if(producer is null) 
+    {
+    <h1>
+        No producer of ID: @producerId
+    </h1>
+    }
+    @if(producer is not null)
     {
         <h1>
-            No producer of ID: @producerId
+            Edit Producer
         </h1>
-    }
-    @if (producer is not null)
-    {
-            <h1>
-                Edit Producer
-            </h1>
-            <form class='form' @onsubmit="HandleFormSubmit">
-                <label for="producer-name">
-                    Name
-                </label>
-                <input id="producer-name" type="text" @bind-value="formModel.Name" required />
+        <form class='form' @onsubmit="HandleFormSubmit">
+            <label for="producer-name">
+                Name
+            </label>
+            <input id="producer-name" type="text" @bind-value="formModel.Name" required />
 
-                <label for="producer-country">
-                    Country
-                </label>
-                <input id="producer-country" type="text"@bind-value="formModel.Country" required />
+            <label for="producer-country">
+                Country
+            </label>
+            <input id="producer-country" type="text"@bind-value="formModel.Country" required />
 
-                <button 
-                    class="add-btn"
-                    type="submit"
-                >
-                    Confirm Edit
-                </button>
-            </form>
+            <button 
+                class="add-btn"
+                type="submit"
+            >
+                Confirm Edit
+            </button>
+        </form>
     }
 </div>
 
 @code {
     [Parameter] public int producerId { get; set; }
     private FormModel formModel = new FormModel();
+
+    DataAccess dataAccess;
+
+    public EditProducer()
+    {
+        dataAccess = Singleton.Instance;
+    }
 
     private class FormModel
     {
@@ -55,21 +62,21 @@
         editProducer.Name = formModel.Name;
         editProducer.Country = formModel.Country;
 
-        if (!Validate())
+        if (!Validate()) 
         {
             return;
         }
 
-        DAO.UpdateProducer(editProducer);
+        dataAccess.DAO.UpdateProducer(editProducer);
 
         // Reset the form
         formModel = new FormModel();
 
         NavManager.NavigateTo("/producers");
     }
-    private bool Validate()
+    private bool Validate() 
     {
-        if (editProducer.Name.Length > 0 && editProducer.Country.Length > 0)
+        if (editProducer.Name.Length > 0 && editProducer.Country.Length > 0) 
         {
             return true;
         }
@@ -78,8 +85,8 @@
 
     protected override void OnInitialized()
     {
-        producer = DAO.GetProducerById(producerId);
-        if (producer is not null)
+        producer = dataAccess.DAO.GetProducerById(producerId);
+        if (producer is not null) 
         {
             formModel.Name = producer.Name;
             formModel.Country = producer.Country;

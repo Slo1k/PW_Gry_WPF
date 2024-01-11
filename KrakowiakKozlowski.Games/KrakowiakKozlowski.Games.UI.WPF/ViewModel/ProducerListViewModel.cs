@@ -93,9 +93,7 @@ namespace KrakowiakKozlowski.Games.UI.WPF.ViewModel
             {
                 Producers.Add(EditedProducer);
                 dataAccess.DAO.UpdateProducer(EditedProducer.Producer);
-                EditedProducer = null;
             }
-            EditedProducer = null;
         }
         private bool CanSaveProducer()
         {
@@ -127,6 +125,7 @@ namespace KrakowiakKozlowski.Games.UI.WPF.ViewModel
             if (Producers.Contains(SelectedProducer))
             {
                 dataAccess.RemoveProducer(SelectedProducer.Id);
+                Producers.Remove(SelectedProducer);
                 EditedProducer = null;
             }
             EditedProducer = null;

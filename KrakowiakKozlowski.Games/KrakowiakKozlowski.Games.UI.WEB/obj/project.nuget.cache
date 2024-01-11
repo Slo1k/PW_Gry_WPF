@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5Kd2MLlp8IbYyZCdPh7p7hMDAeN0aKpenSicZuvq+Oi+X+oUV7CrR0yaK3hNQAS9AOtq5X1baR0UpYcIpPdOUg==",
-  "success": false,
+  "dgSpecHash": "Yxp3WE5JMsY1sJQsenamMz/BgPkdV6x8+ymeqHz4dXiYcpiA9tG0YWxTYIPbgz1rawu6DcbT60w23+Ij8HR7Rg==",
+  "success": true,
   "projectFilePath": "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.UI.WEB\\KrakowiakKozlowski.Games.UI.WEB.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Mikolaj\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.15\\microsoft.aspnetcore.authorization.7.0.15.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.15\\microsoft.aspnetcore.components.7.0.15.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\7.0.15\\microsoft.aspnetcore.components.analyzers.7.0.15.nupkg.sha512",
@@ -12,13 +13,16 @@
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\7.0.15\\microsoft.aspnetcore.components.webassembly.7.0.15.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\7.0.15\\microsoft.aspnetcore.components.webassembly.devserver.7.0.15.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.15\\microsoft.aspnetcore.metadata.7.0.15.nupkg.sha512",
+    "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.data.sqlite\\7.0.15\\microsoft.data.sqlite.7.0.15.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.15\\microsoft.data.sqlite.core.7.0.15.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.15\\microsoft.entityframeworkcore.7.0.15.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.15\\microsoft.entityframeworkcore.abstractions.7.0.15.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.15\\microsoft.entityframeworkcore.analyzers.7.0.15.nupkg.sha512",
+    "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.15\\microsoft.entityframeworkcore.design.7.0.15.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.15\\microsoft.entityframeworkcore.relational.7.0.15.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\7.0.15\\microsoft.entityframeworkcore.sqlite.7.0.15.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\7.0.15\\microsoft.entityframeworkcore.sqlite.core.7.0.15.nupkg.sha512",
+    "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.15\\microsoft.entityframeworkcore.tools.7.0.15.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
@@ -38,24 +42,20 @@
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.jsinterop\\7.0.15\\microsoft.jsinterop.7.0.15.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.jsinterop.webassembly\\7.0.15\\microsoft.jsinterop.webassembly.7.0.15.nupkg.sha512",
+    "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.net.illink.analyzers\\7.0.100-1.23211.1\\microsoft.net.illink.analyzers.7.0.100-1.23211.1.nupkg.sha512",
+    "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.net.illink.tasks\\7.0.100-1.23211.1\\microsoft.net.illink.tasks.7.0.100-1.23211.1.nupkg.sha512",
+    "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.0\\microsoft.net.sdk.webassembly.pack.8.0.0.nupkg.sha512",
+    "C:\\Users\\Mikolaj\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.4\\sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\sqlitepclraw.core\\2.1.4\\sqlitepclraw.core.2.1.4.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.4\\sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.4\\sqlitepclraw.provider.e_sqlite3.2.1.4.nupkg.sha512",
+    "C:\\Users\\Mikolaj\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Mikolaj\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\Mikolaj\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
+    "C:\\Users\\Mikolaj\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
+    "C:\\Users\\Mikolaj\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.14\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.14.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project KrakowiakKozlowski.Games.UI.WPF is not compatible with net7.0 (.NETCoreApp,Version=v7.0). Project KrakowiakKozlowski.Games.UI.WPF supports: net7.0-windows7.0 (.NETCoreApp,Version=v7.0)",
-      "libraryId": "KrakowiakKozlowski.Games.UI.WPF",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

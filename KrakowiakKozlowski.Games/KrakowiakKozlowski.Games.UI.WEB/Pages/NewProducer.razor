@@ -1,6 +1,5 @@
-﻿@page "/newproducer"
-@inject KrakowiakKozlowski.Games.INTERFACES.IDAO DAO
-
+@page "/newproducer"
+@using KrakowiakKozlowski.Games.BL;
 @inject NavigationManager NavManager
 
 <div class="wrapper">
@@ -30,6 +29,12 @@
 @code {
     private FormModel formModel = new FormModel();
 
+    DataAccess dataAccess;
+    public NewProducer()
+    {
+        dataAccess = Singleton.Instance;
+    }
+
     private class FormModel
     {
         public string Name { get; set; }
@@ -46,22 +51,22 @@
         newProducer.Name = formModel.Name;
         newProducer.Country = formModel.Country;
 
-        if (!Validate())
+        if (!Validate()) 
         {
             return;
         }
 
-        DAO.AddNewProducer(newProducer);
+        dataAccess.DAO.AddNewProducer(newProducer);
 
         // Reset the form
         formModel = new FormModel();
 
-        producers = DAO.GetAllProducers().ToList();
+        producers = dataAccess.DAO.GetAllProducers().ToList();
         NavManager.NavigateTo("/producers");
     }
-    private bool Validate()
+    private bool Validate() 
     {
-        if (newProducer.Name.Length > 0 && newProducer.Country.Length > 0)
+        if (newProducer.Name.Length > 0 && newProducer.Country.Length > 0) 
         {
             return true;
         }
@@ -71,6 +76,6 @@
 
     protected override void OnInitialized()
     {
-        producers = DAO.GetAllProducers().ToList();
+        producers = dataAccess.DAO.GetAllProducers().ToList();
     }
 }

@@ -1,6 +1,6 @@
-﻿@page "/producers"
-@inject KrakowiakKozlowski.Games.INTERFACES.IDAO DAO
-@using UI.WEB.Components
+@page "/producers"
+@using KrakowiakKozlowski.Games.BL
+@using KrakowiakKozlowski.Games.UI.WEB.Components
 @inject NavigationManager NavManager
 
 <PageTitle>
@@ -99,6 +99,12 @@
     private bool isConfirmModalOpen = false;
     private KrakowiakKozlowski.Games.INTERFACES.IProducer? selectedProducer;
 
+    DataAccess dataAccess;
+    public Producers()
+    {
+        dataAccess = Singleton.Instance;
+    }
+
     List<KrakowiakKozlowski.Games.INTERFACES.IProducer> producers;
     private List<KrakowiakKozlowski.Games.INTERFACES.IProducer> filteredProducers = new List<KrakowiakKozlowski.Games.INTERFACES.IProducer>();
     private void NavigateToEdit(int id)
@@ -121,10 +127,10 @@
         if (selectedProducer != null)
         {
             // TODO: Implement the logic to delete the selected producer
-            DAO.RemoveProducer(selectedProducer.Id);
-            
+            dataAccess.DAO.RemoveProducer(selectedProducer.Id);
+
             // Refresh the producers list
-            producers = DAO.GetAllProducers().ToList();
+            producers = dataAccess.DAO.GetAllProducers().ToList();
         }
 
         // Reset the flag and selected producer
@@ -139,7 +145,7 @@
     }
     protected override void OnInitialized()
     {
-        producers = DAO.GetAllProducers().ToList();
+        producers = dataAccess.DAO.GetAllProducers().ToList();
         filteredProducers = producers;
     }
 }
