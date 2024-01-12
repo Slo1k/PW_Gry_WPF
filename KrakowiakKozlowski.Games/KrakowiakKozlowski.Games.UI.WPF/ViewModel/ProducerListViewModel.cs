@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Data;
 using KrakowiakKozlowski.Games.BL;
 using KrakowiakKozlowski.Games.INTERFACES;
@@ -12,6 +14,7 @@ namespace KrakowiakKozlowski.Games.UI.WPF.ViewModel
 {
     public class ProducerListViewModel : ViewModelBase
     {
+        public event PropertyChangedEventHandler? PropertyChanged;
         public ObservableCollection<ProducerViewModel> Producers { get; set; } = new ObservableCollection<ProducerViewModel>();
         private ListCollectionView _view;
         private RelayCommand _filterDataCommand;
@@ -110,6 +113,24 @@ namespace KrakowiakKozlowski.Games.UI.WPF.ViewModel
         }
         private void AddNewProducer()
         {
+            int maxProducerId;
+            try
+            {
+                maxProducerId = dataAccess.DAO.GetAllProducers().Max(x => x.Id);
+            }
+            catch
+            {
+                maxProducerId = 1;
+            }
+
+            AddProducer addProducerDialog = new AddProducer(); // Instantiate the dialog
+            addProducerDialog.Owner = Application.Current.MainWindow; // Set the owner of the dialog
+
+            if (addProducerDialog.ShowDialog() == true)
+            {
+                var newProd = dataAccess.DAO.AddNewProducer(maxProducerId, addProducerDialog.ProducerName, addProducerDialog.ProducerCountry);
+                Producers.Add(new ProducerViewModel(newProd));
+            }
         }
         private bool CanAddNewProducer()
         {
@@ -138,5 +159,8 @@ namespace KrakowiakKozlowski.Games.UI.WPF.ViewModel
             }
             return false;
         }
+
+
+        private void RaisePropertyChanged(string propertyName) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
     }
 }

@@ -309,3 +309,7 @@ E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.UI.WPF\obj
 E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.UI.WPF\obj\Debug\net7.0-windows\KrakowiakKozlowski.Games.UI.WPF.pdb
 E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.UI.WPF\obj\Debug\net7.0-windows\KrakowiakKozlowski.Games.UI.WPF.genruntimeconfig.cache
 E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.UI.WPF\obj\Debug\net7.0-windows\ref\KrakowiakKozlowski.Games.UI.WPF.dll
+E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.UI.WPF\obj\Debug\net7.0-windows\AddGame.g.cs
+E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.UI.WPF\obj\Debug\net7.0-windows\AddProducer.g.cs
+E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.UI.WPF\obj\Debug\net7.0-windows\AddGame.baml
+E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.UI.WPF\obj\Debug\net7.0-windows\AddProducer.baml

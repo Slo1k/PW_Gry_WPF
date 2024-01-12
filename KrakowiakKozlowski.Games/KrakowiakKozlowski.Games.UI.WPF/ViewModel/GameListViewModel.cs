@@ -120,6 +120,8 @@ namespace KrakowiakKozlowski.Games.UI.WPF.ViewModel
             if (!Games.Contains(EditedGame))
             {
                 dataAccess.UpdateGame(EditedGame.Game);
+                SelectedGame = null;
+                EditedGame = null;
             }
         }
         private bool CanSaveGame()
