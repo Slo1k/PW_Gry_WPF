@@ -60,7 +60,7 @@
                         <Label Grid.Row="4">Score:</Label>
                         <TextBox  Margin="10 0 0 0" Grid.Row="0" Grid.Column="1" MinWidth="150" Text="{Binding Title}"/>
                         <ComboBox Margin="10 0 0 0" x:Name="ProducerComboBox" Grid.Row="1" Grid.Column="1" DisplayMemberPath="Name" SelectedItem="{Binding Producer}" />
-                        <ComboBox  Margin="10 0 0 0" Grid.Row="2" Grid.Column="1" ItemsSource="{Binding Source={StaticResource dataFromEnum}}" SelectedItem="{Binding Type}" />
+                        <ComboBox  Margin="10 0 0 0" Grid.Row="2" Grid.Column="1" ItemsSource="{Binding Source={StaticResource dataFromEnum}}" SelectedItem="{Binding Genre}" />
                         <TextBox Margin="10 0 0 0" Grid.Row="3" Grid.Column="1" MinWidth="150" Text="{Binding ReleaseYear}"/>
                         <TextBox  Margin="10 0 0 0" Grid.Row="4" Grid.Column="1" MinWidth="150" Text="{Binding Score}"/>
                     </Grid>

@@ -36,7 +36,6 @@ body {
     background: lightgray;
     position: relative;
 }
-
 .index-btn {
     width: 150px;
     display: flex;
@@ -48,12 +47,11 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color: black;
+
 }
-
-    .index-btn:hover {
-        background: #b57602;
-    }
-
+.index-btn:hover {
+    background: #b57602;
+}
 .wrapper {
     width: 60%;
     height: 100%;
@@ -63,14 +61,12 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-
 .catalog-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
 }
-
 .catalog-header-btn, .add-btn {
     padding: 10px;
     background: #157004;
@@ -78,12 +74,10 @@ body {
     font-weight: 500;
     text-decoration: none;
 }
-
-    .catalog-header-btn:hover, .add-btn:hover {
-        background: #0e4a03;
-        cursor: pointer;
-    }
-
+.catalog-header-btn:hover, .add-btn:hover {
+    background: #0e4a03;
+    cursor: pointer;
+}
 .catalog-input {
     display: flex;
     flex: 1;
@@ -93,7 +87,6 @@ body {
     padding: 10px;
     box-sizing: border-box;
 }
-
 .catalog-input-btn {
     padding: 10px;
     color: white;
@@ -107,7 +100,6 @@ body {
     background: #006bf7;
     font-size: 20px;
 }
-
 .catalog-container {
     display: flex;
     flex-direction: column;
@@ -116,71 +108,59 @@ body {
     overflow-y: auto;
     border: 1px solid black;
 }
-
 .catalog-element {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 5px 10px;
 }
-
-    .catalog-element:nth-of-type(odd) {
-        background: rgba(0, 0, 0, 0.2);
-    }
-
-    .catalog-element > div {
-        display: flex;
-        gap: 5px;
-    }
-
-    .catalog-element span:hover {
-        text-decoration: underline;
-        cursor: pointer;
-    }
-
-    .catalog-element .catalog-element-btn, .details-btn {
-        padding: 10px;
-        color: white;
-        font-weight: 500;
-        text-decoration: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        outline: none;
-        border: none;
-    }
-
+.catalog-element:nth-of-type(odd) {
+    background: rgba(0, 0, 0, 0.2);
+}
+.catalog-element > div {
+    display: flex;
+    gap: 5px;
+}
+.catalog-element span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.catalog-element .catalog-element-btn, .details-btn {
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+}
 .edit {
     background: #006bf7;
 }
-
-    .edit:hover {
-        background: #024fb5;
-    }
-
+.edit:hover {
+    background: #024fb5;
+}
 .remove {
     background: #ad2a2a;
 }
-
-    .remove:hover {
-        background: #751b1b;
-    }
-
+.remove:hover {
+    background: #751b1b;
+}
 .catalog-element .catalog-element-btn:hover {
     cursor: pointer;
 }
-
 .back-btn {
-    text-decoration: none;
+    text-decoration: none; 
     margin-top: 20px;
     display: block;
     color: black;
 }
-
-    .back-btn:hover {
-        text-decoration: underline;
-        cursor: pointer;
-    }
+.back-btn:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 .confirm-modal {
     position: absolute;
@@ -195,73 +175,63 @@ body {
     align-items: center;
     backdrop-filter: blur(10px);
 }
-
-    .confirm-modal > div {
-        min-width: 25%;
-        background: white;
-        padding: 20px;
-        border-radius: 10px;
-        border: 1px solid black;
-    }
-
+.confirm-modal > div {
+    min-width: 25%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
 .confirm-modal-content {
     font-size: 20px;
     margin-bottom: 20px;
 }
-
 .confirm-modal-buttons {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 10px;
 }
-
-    .confirm-modal-buttons > button {
-        padding: 10px;
-        outline: none;
-        border: none;
-        border-radius: 3px;
-        box-sizing: border-box;
-        font-weight: 500;
-    }
-
-        .confirm-modal-buttons > button.cancel {
-            border: 2px solid #ad2a2a;
-            color: #ad2a2a;
-            background: lightgray;
-        }
-
-            .confirm-modal-buttons > button.cancel:hover {
-                background: rgb(192, 192, 192);
-            }
-
-        .confirm-modal-buttons > button.confirm {
-            color: white;
-            background: #006bf7;
-        }
-
-            .confirm-modal-buttons > button.confirm:hover {
-                background: #024fb5;
-            }
+.confirm-modal-buttons > button {
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+.confirm-modal-buttons > button.cancel {
+    border: 2px solid #ad2a2a;
+    color: #ad2a2a;
+    background: lightgray;
+}
+.confirm-modal-buttons > button.cancel:hover {
+    background: rgb(192, 192, 192);
+}
+.confirm-modal-buttons > button.confirm {
+    color: white;
+    background: #006bf7;
+}
+.confirm-modal-buttons > button.confirm:hover {
+    background: #024fb5;
+}
 
 .form {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
-
-    .form label {
-        width: 100%;
-        font-size: 20px;
-        font-weight: 500;
-    }
-
-    .form input, .form select {
-        width: 100%;
-        outline: none;
-        border: 1px solid black;
-        font-size: 20px;
-        padding: 10px;
-        box-sizing: border-box;
-        margin-bottom: 10px;
-    }
+.form label {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.form input, .form select {
+    width: 100%;
+    outline: none;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}

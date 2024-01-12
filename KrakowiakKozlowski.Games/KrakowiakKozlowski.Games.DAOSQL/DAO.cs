@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using KrakowiakKozlowski.Games.CORE;
 using KrakowiakKozlowski.Games.INTERFACES;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,13 +11,10 @@ namespace KrakowiakKozlowski.Games.DAOSQL
 {
     public class DAO : IDAO
     {
-        DataContext context = null;
-
+        DataContext context;
 
         public DAO()
         {
-            var optionsBuilder = new DbContextOptionsBuilder<DataContext>();
-            optionsBuilder.UseSqlite("Data source=DAOSQL.db");
             context = new DataContext();
         }
 
@@ -30,16 +28,31 @@ namespace KrakowiakKozlowski.Games.DAOSQL
             return context.Producers.Select(pr => pr.ToIProducer());
         }
 
-        public IGame AddNewGame(IGame game)
+        public IGame AddNewGame(int id, string title, int releaseYear, GameGenre genre, int score, int producerId)
         {
-			context.Games.Add((DO.Game)game);
-            return game;
+            DO.Game newGame = new DO.Game()
+            {
+                Id = id,
+                Title = title,
+                ReleaseYear = releaseYear,
+                Genre = genre,
+                Score = score,
+                ProducerID = producerId
+            };
+			context.Games.Add(newGame);
+            return newGame.ToIGame(context.Producers.ToList());
         }
 
-        public IProducer AddNewProducer(IProducer producer)
+        public IProducer AddNewProducer(int id, string name, string country)
         {
-            context.Producers.Add((DO.Producer)producer);
-            return producer;
+            DO.Producer newProducer = new DO.Producer()
+            {
+                Id = id,
+                Name = name,
+                Country = country
+            };
+            context.Producers.Add(newProducer);
+            return newProducer.ToIProducer();
         }
 
         public void UpdateGame(IGame game)

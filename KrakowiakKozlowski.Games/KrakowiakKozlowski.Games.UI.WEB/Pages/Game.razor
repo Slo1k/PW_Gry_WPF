@@ -1,6 +1,6 @@
-﻿@page "/game/{gameId:int}"
-@inject KrakowiakKozlowski.Games.INTERFACES.IDAO DAO
-@using UI.WEB.Components
+@page "/game/{gameId:int}"
+@using KrakowiakKozlowski.Games.BL
+@using KrakowiakKozlowski.Games.UI.WEB.Components
 @inject NavigationManager NavManager
 
 <PageTitle>
@@ -94,6 +94,14 @@
     [Parameter] public int gameId { get; set; }
     private KrakowiakKozlowski.Games.INTERFACES.IGame? game;
     private bool isConfirmModalOpen = false;
+
+    DataAccess dataAccess;
+
+    public Game()
+    {
+        dataAccess = Singleton.Instance;
+    }
+
     private void NavigateToEdit()
     {
         NavManager.NavigateTo("/editgame/" + gameId);
@@ -110,7 +118,7 @@
     {
         if (game != null)
         {
-            DAO.RemoveGame(game.Id);
+            dataAccess.DAO.RemoveGame(game.Id);
         }
 
         isConfirmModalOpen = false;
@@ -118,6 +126,6 @@
     }
     protected override void OnInitialized()
     {
-        game = DAO.GetGameById(gameId);
+        game = dataAccess.DAO.GetGameById(gameId);
     }
 }

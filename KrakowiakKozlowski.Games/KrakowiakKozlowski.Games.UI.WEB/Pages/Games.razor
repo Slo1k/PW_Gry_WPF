@@ -1,6 +1,6 @@
-﻿@page "/games"
-@inject KrakowiakKozlowski.Games.INTERFACES.IDAO DAO
+@page "/games"
 @using KrakowiakKozlowski.Games.UI.WEB.Components
+@using KrakowiakKozlowski.Games.BL;
 @inject NavigationManager NavManager
 
 <PageTitle>
@@ -118,7 +118,15 @@
 
     List<KrakowiakKozlowski.Games.INTERFACES.IGame> games;
     private List<KrakowiakKozlowski.Games.INTERFACES.IGame> filteredGames = new List<KrakowiakKozlowski.Games.INTERFACES.IGame>();
-   
+
+    private DataAccess dataAccess = null;
+
+    public Games ()
+    {
+        dataAccess = Singleton.Instance;
+        Console.WriteLine("TSET");
+    }
+
     private void NavigateToEdit(int id)
     {
         NavManager.NavigateTo("/editgame/" + id);
@@ -139,10 +147,10 @@
         if (selectedGame != null)
         {
             // TODO: Implement the logic to delete the selected producer
-            DAO.RemoveGame(selectedGame.Id);
-            
+            dataAccess.DAO.RemoveGame(selectedGame.Id);
+
             // Refresh the producers list
-            games = DAO.GetAllGames().ToList();
+            games = dataAccess.DAO.GetAllGames().ToList();
         }
 
         // Reset the flag and selected producer
@@ -164,7 +172,7 @@
     }
     protected override void OnInitialized()
     {
-        games = DAO.GetAllGames().ToList();
+        games = dataAccess.DAO.GetAllGames().ToList();
         filteredGames = games;
     }
 }

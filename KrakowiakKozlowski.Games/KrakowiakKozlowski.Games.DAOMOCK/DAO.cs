@@ -1,4 +1,6 @@
-﻿using KrakowiakKozlowski.Games.INTERFACES;
+﻿using KrakowiakKozlowski.Games.CORE;
+using KrakowiakKozlowski.Games.DAOMOCK.DO;
+using KrakowiakKozlowski.Games.INTERFACES;
 
 namespace KrakowiakKozlowski.Games.DAOMOCK
 {
@@ -11,18 +13,18 @@ namespace KrakowiakKozlowski.Games.DAOMOCK
 		{
 			producers = new List<IProducer>()
 			{
-				new DO.Producer() {Id = 1, Name = "FromSoftware", Country = "Japan"},
-				new DO.Producer() {Id = 2, Name = "Capcom", Country = "Japan"},
-				new DO.Producer() {Id = 3, Name = "Remedy Entertainment", Country = "Finland"}
+				new Producer() {Id = 1, Name = "FromSoftware", Country = "Japan"},
+				new Producer() {Id = 2, Name = "Capcom", Country = "Japan"},
+				new Producer() {Id = 3, Name = "Remedy Entertainment", Country = "Finland"}
 			};
 
 
 			games = new List<IGame>()
 			{
-				new DO.Game() {Id = 1, Title = "Elden Ring", Genre = CORE.GameGenre.RPG, ReleaseYear = 2022, Score = 96, Producer = producers[0]},
-				new DO.Game() {Id = 2, Title = "Armored Core VI", Genre = CORE.GameGenre.Action, ReleaseYear = 2023, Score = 86, Producer= producers[0]},
-				new DO.Game() {Id = 3, Title = "Resident Evil 4", Genre = CORE.GameGenre.Horror, ReleaseYear = 2023, Score = 93, Producer=producers[1]},
-				new DO.Game() {Id = 4, Title = "Alan Wake 2", Genre = CORE.GameGenre.Horror, ReleaseYear = 2023, Score = 88, Producer=producers[2]}
+				new Game() {Id = 1, Title = "Elden Ring", Genre = CORE.GameGenre.RPG, ReleaseYear = 2022, Score = 96, Producer = producers[0]},
+				new Game() {Id = 2, Title = "Armored Core VI", Genre = CORE.GameGenre.Action, ReleaseYear = 2023, Score = 86, Producer= producers[0]},
+				new Game() {Id = 3, Title = "Resident Evil 4", Genre = CORE.GameGenre.Horror, ReleaseYear = 2023, Score = 93, Producer=producers[1]},
+				new Game() {Id = 4, Title = "Alan Wake 2", Genre = CORE.GameGenre.Horror, ReleaseYear = 2023, Score = 88, Producer=producers[2]}
 			};
 		}
 
@@ -36,16 +38,32 @@ namespace KrakowiakKozlowski.Games.DAOMOCK
 			return producers;
 		}
 
-		public IGame AddNewGame(IGame game)
+		public IGame AddNewGame(int id, string title, int releaseYear, GameGenre genre, int score, int producerId)
 		{
-			games.Add(game);
-			return game;
+			var prod = producers.FirstOrDefault(x => x.Id == producerId);
+			Game newGame = new Game()
+			{
+				Id = id,
+				Title = title,
+				ReleaseYear = releaseYear,
+				Score = score,
+				Genre = genre,
+				Producer = prod
+			};
+			games.Add(newGame);
+			return newGame;
 		}
 
-		public IProducer AddNewProducer(IProducer producer)
+		public IProducer AddNewProducer(int id, string name, string country)
 		{
-			producers.Add(producer);
-			return producer;
+			Producer newProducer = new Producer()
+			{
+				Id = id,
+				Name = name,
+				Country = country
+			};
+			producers.Add(newProducer);
+			return newProducer;
 		}
 
 		public void RemoveGame(int id)

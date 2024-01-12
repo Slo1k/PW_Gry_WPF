@@ -109,6 +109,7 @@ namespace KrakowiakKozlowski.Games.UI.WPF.ViewModel
                 OnPropertyChanged(nameof(SelectedGame));
             }
         }
+
         private RelayCommand _saveGameCommand;
         public RelayCommand SaveGameCommand
         {
@@ -119,9 +120,9 @@ namespace KrakowiakKozlowski.Games.UI.WPF.ViewModel
             if (!Games.Contains(EditedGame))
             {
                 dataAccess.UpdateGame(EditedGame.Game);
+                SelectedGame = null;
                 EditedGame = null;
             }
-            EditedGame = null;
         }
         private bool CanSaveGame()
         {
@@ -155,6 +156,7 @@ namespace KrakowiakKozlowski.Games.UI.WPF.ViewModel
             {
 
                 dataAccess.RemoveGame(SelectedGame.Id);
+                Games.Remove(SelectedGame);
                 SelectedGame = null;
                 EditedGame = null;
             }

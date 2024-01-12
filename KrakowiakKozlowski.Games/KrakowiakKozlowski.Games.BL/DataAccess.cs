@@ -4,6 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using KrakowiakKozlowski.Games.CORE;
 using KrakowiakKozlowski.Games.INTERFACES;
 
 namespace KrakowiakKozlowski.Games.BL
@@ -38,9 +39,9 @@ namespace KrakowiakKozlowski.Games.BL
             get { return DAO.GetAllProducers(); }
         }
 
-        public IGame AddNewGame(IGame game) => DAO.AddNewGame(game);
+        public IGame AddNewGame(int id, string title, int releaseYear, GameGenre genre, int score, int producerId) => DAO.AddNewGame(id, title, releaseYear, genre, score, producerId);
 
-        public IProducer AddNewProducer(IProducer producer) => DAO.AddNewProducer(producer);
+        public IProducer AddNewProducer(int id, string name, string country) => DAO.AddNewProducer(id, name, country);
 
         public void UpdateGame(IGame game) => DAO.UpdateGame(game);
 

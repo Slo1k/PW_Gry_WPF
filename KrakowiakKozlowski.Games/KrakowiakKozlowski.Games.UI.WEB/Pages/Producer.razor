@@ -1,7 +1,7 @@
-﻿@page "/producer/{producerId:int}"
-@inject KrakowiakKozlowski.Games.INTERFACES.IDAO DAO
+@page "/producer/{producerId:int}"
+@using KrakowiakKozlowski.Games.BL
 @inject NavigationManager NavManager
-@using UI.WEB.Components
+@using KrakowiakKozlowski.Games.UI.WEB.Components
 
 <PageTitle>
     Producer - @producerId
@@ -64,6 +64,13 @@
     [Parameter] public int producerId { get; set; }
     private KrakowiakKozlowski.Games.INTERFACES.IProducer? producer;
     private bool isConfirmModalOpen = false;
+
+    DataAccess dataAccess;
+    public Producer()
+    {
+        dataAccess = Singleton.Instance;
+    }
+
     private void NavigateToEdit()
     {
         NavManager.NavigateTo("/editproducer/" + producerId);
@@ -80,7 +87,7 @@
     {
         if (producer != null)
         {
-            DAO.RemoveProducer(producer.Id);
+            dataAccess.DAO.RemoveProducer(producer.Id);
         }
 
         isConfirmModalOpen = false;
@@ -88,6 +95,6 @@
     }
     protected override void OnInitialized()
     {
-        producer = DAO.GetProducerById(producerId);
+        producer = dataAccess.DAO.GetProducerById(producerId);
     }
 }

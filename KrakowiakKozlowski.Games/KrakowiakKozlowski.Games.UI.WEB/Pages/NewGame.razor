@@ -1,5 +1,5 @@
-﻿@page "/newgame"
-@inject KrakowiakKozlowski.Games.INTERFACES.IDAO DAO
+@page "/newgame"
+@using KrakowiakKozlowski.Games.BL
 @inject NavigationManager NavManager
 
 <div class="wrapper">
@@ -21,14 +21,14 @@
             Score
         </label>
         <input id="game-score" type="number" @bind-value="formModel.Score" required />
-
+        
         <label for="game-producer">
             game-producer
         </label>
         <select id="game-producer" @bind="formModel.ProducerId" required>
             @foreach (var producer in producers)
             {
-                    <option value="@producer.Id">@producer.Name</option>
+                <option value="@producer.Id">@producer.Name</option>
             }
         </select>
 
@@ -38,7 +38,7 @@
         <select id="game-genre" @bind="formModel.Genre" required>
             @foreach (var genre in Enum.GetNames(typeof(KrakowiakKozlowski.Games.CORE.GameGenre)))
             {
-                    <option value="@genre">@genre</option>
+                <option value="@genre">@genre</option>
             }
         </select>
 
@@ -54,6 +54,13 @@
 
 @code {
     private FormModel formModel = new FormModel();
+
+    DataAccess dataAccess;
+
+    public NewGame()
+    {
+        dataAccess = Singleton.Instance;
+    }
 
     private class FormModel
     {
@@ -82,12 +89,12 @@
             return;
         }
 
-        DAO.AddNewGame(newGame);
+        dataAccess.DAO.AddNewGame(newGame);
 
         // Reset the form
         formModel = new FormModel();
 
-        games = DAO.GetAllGames().ToList();
+        games = dataAccess.DAO.GetAllGames().ToList();
         NavManager.NavigateTo("/games");
     }
     private List<KrakowiakKozlowski.Games.INTERFACES.IProducer> producers;
@@ -95,7 +102,7 @@
 
     protected override void OnInitialized()
     {
-        games = DAO.GetAllGames().ToList();
-        producers = DAO.GetAllProducers().ToList();
+        games = dataAccess.DAO.GetAllGames().ToList();
+        producers = dataAccess.DAO.GetAllProducers().ToList();
     }
 }
