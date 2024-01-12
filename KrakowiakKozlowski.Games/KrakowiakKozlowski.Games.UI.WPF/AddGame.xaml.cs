@@ -31,7 +31,7 @@ namespace KrakowiakKozlowski.Games.UI.WPF
 
             foreach (var producer in producers)
             {
-                gameProducer.Items.Add(producer);
+                gameProducer.Items.Add(producer.Name);
             }
 
             if (gameProducer.Items.Count > 0)
