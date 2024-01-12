@@ -63,12 +63,12 @@
         public int ProducerId { get; set; }
         public KrakowiakKozlowski.Games.CORE.GameGenre Genre { get; set; }
     }
-    private KrakowiakKozlowski.Games.INTERFACES.IGame newGame = new KrakowiakKozlowski.Games.DAOMOCK.DO.Game();
 
     private void HandleFormSubmit()
     {
         int newGameId = games.Max(p => p.Id) + 1;
 
+        var newGame = new KrakowiakKozlowski.Games.DAOMOCK.DO.Game();
         newGame.Id = newGameId;
 
         newGame.Title = formModel.Title;
@@ -77,7 +77,7 @@
         newGame.Producer = producers.FirstOrDefault(p => p.Id == formModel.ProducerId);
         newGame.Genre = formModel.Genre;
 
-        if (!Validate())
+        if (newGame.Title.Length <= 0 || newGame.Producer is null)
         {
             return;
         }
@@ -89,14 +89,6 @@
 
         games = DAO.GetAllGames().ToList();
         NavManager.NavigateTo("/games");
-    }
-    private bool Validate()
-    {
-        if (newGame.Title.Length > 0 && newGame.Producer is not null)
-        {
-            return true;
-        }
-        return false;
     }
     private List<KrakowiakKozlowski.Games.INTERFACES.IProducer> producers;
     private List<KrakowiakKozlowski.Games.INTERFACES.IGame> games;
