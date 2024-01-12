@@ -131,6 +131,7 @@
 
             // Refresh the producers list
             producers = dataAccess.DAO.GetAllProducers().ToList();
+            filteredProducers = producers;
         }
 
         // Reset the flag and selected producer

@@ -86,7 +86,7 @@
     }
     @if(filteredGames == null || filteredGames.Count == 0) {
         <div style='text-align: center; padding: 10px 0'>
-            No producers to display
+            No games to display
         </div>
     }
     </div>
@@ -151,6 +151,7 @@
 
             // Refresh the producers list
             games = dataAccess.DAO.GetAllGames().ToList();
+            filteredGames = games;
         }
 
         // Reset the flag and selected producer
