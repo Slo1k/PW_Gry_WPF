@@ -35,3 +35,13 @@ E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\D
 E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\KrakowiakKozlowski.Games.CORE.dll
 E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\refint\KrakowiakKozlowski.Games.CORE.dll
 E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\ref\KrakowiakKozlowski.Games.CORE.dll
+C:\PLIKI\GitHub\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\bin\Debug\net7.0\KrakowiakKozlowski.Games.CORE.deps.json
+C:\PLIKI\GitHub\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\bin\Debug\net7.0\KrakowiakKozlowski.Games.CORE.dll
+C:\PLIKI\GitHub\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\KrakowiakKozlowski.Games.CORE.csproj.AssemblyReference.cache
+C:\PLIKI\GitHub\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\KrakowiakKozlowski.Games.CORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\PLIKI\GitHub\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\KrakowiakKozlowski.Games.CORE.AssemblyInfoInputs.cache
+C:\PLIKI\GitHub\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\KrakowiakKozlowski.Games.CORE.AssemblyInfo.cs
+C:\PLIKI\GitHub\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\KrakowiakKozlowski.Games.CORE.csproj.CoreCompileInputs.cache
+C:\PLIKI\GitHub\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\KrakowiakKozlowski.Games.CORE.dll
+C:\PLIKI\GitHub\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\refint\KrakowiakKozlowski.Games.CORE.dll
+C:\PLIKI\GitHub\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.CORE\obj\Debug\net7.0\ref\KrakowiakKozlowski.Games.CORE.dll

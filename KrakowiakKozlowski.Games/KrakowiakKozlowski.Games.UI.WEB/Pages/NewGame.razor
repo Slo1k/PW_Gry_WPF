@@ -1,4 +1,4 @@
-@page "/newgame"
+﻿@page "/newgame"
 @using KrakowiakKozlowski.Games.BL
 @inject NavigationManager NavManager
 
@@ -75,21 +75,12 @@
     {
         int newGameId = games.Max(p => p.Id) + 1;
 
-        var newGame = new KrakowiakKozlowski.Games.DAOMOCK.DO.Game();
-        newGame.Id = newGameId;
-
-        newGame.Title = formModel.Title;
-        newGame.ReleaseYear = formModel.ReleaseYear;
-        newGame.Score = formModel.Score;
-        newGame.Producer = producers.FirstOrDefault(p => p.Id == formModel.ProducerId);
-        newGame.Genre = formModel.Genre;
-
-        if (newGame.Title.Length <= 0 || newGame.Producer is null)
+        if (formModel.Title.Length <= 0)
         {
             return;
         }
 
-        dataAccess.DAO.AddNewGame(newGame);
+        dataAccess.DAO.AddNewGame(newGameId, formModel.Title, formModel.ReleaseYear, formModel.Genre, formModel.Score, formModel.ProducerId);
 
         // Reset the form
         formModel = new FormModel();

@@ -40,23 +40,16 @@
         public string Name { get; set; }
         public string Country { get; set; }
     }
-    private KrakowiakKozlowski.Games.INTERFACES.IProducer newProducer = new KrakowiakKozlowski.Games.DAOMOCK.DO.Producer();
-
     private void HandleFormSubmit()
     {
         int newProducerId = producers.Max(p => p.Id) + 1;
 
-        newProducer.Id = newProducerId;
-
-        newProducer.Name = formModel.Name;
-        newProducer.Country = formModel.Country;
-
-        if (!Validate()) 
+        if (formModel.Name.Length <= 0 || formModel.Country.Length <= 0) 
         {
             return;
         }
 
-        dataAccess.DAO.AddNewProducer(newProducer);
+        dataAccess.DAO.AddNewProducer(newProducerId, formModel.Name, formModel.Country);
 
         // Reset the form
         formModel = new FormModel();
@@ -64,14 +57,7 @@
         producers = dataAccess.DAO.GetAllProducers().ToList();
         NavManager.NavigateTo("/producers");
     }
-    private bool Validate() 
-    {
-        if (newProducer.Name.Length > 0 && newProducer.Country.Length > 0) 
-        {
-            return true;
-        }
-        return false;
-    }
+
     private List<KrakowiakKozlowski.Games.INTERFACES.IProducer> producers;
 
     protected override void OnInitialized()
