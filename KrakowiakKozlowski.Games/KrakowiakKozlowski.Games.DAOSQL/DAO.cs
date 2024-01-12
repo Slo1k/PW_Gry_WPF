@@ -11,7 +11,7 @@ namespace KrakowiakKozlowski.Games.DAOSQL
 {
     public class DAO : IDAO
     {
-        DataContext context;
+        DataContext context = null;
 
         public DAO()
         {

@@ -8,11 +8,11 @@ namespace KrakowiakKozlowski.Games.DAOSQL
 {
     public class DataContext : DbContext
     {
-		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite("Data source=DAOSQL.db")
-			.LogTo(message => Debug.WriteLine(message), LogLevel.Information);
-		}
+            .LogTo(message => Debug.WriteLine(message), LogLevel.Information);
+        }
         public DbSet<DO.Producer> Producers { get; set; }
         public DbSet<DO.Game> Games { get; set; }
     }

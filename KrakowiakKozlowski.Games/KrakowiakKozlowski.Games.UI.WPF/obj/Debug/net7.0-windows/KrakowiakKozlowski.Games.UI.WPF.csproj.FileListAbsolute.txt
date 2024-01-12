@@ -231,8 +231,6 @@ C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozl
 C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.UI.WPF\obj\Debug\net7.0-windows\ref\KrakowiakKozlowski.Games.UI.WPF.dll
 E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.UI.WPF\bin\Debug\net7.0-windows\KrakowiakKozlowski.Games.UI.WPF.exe
 E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.UI.WPF\bin\Debug\net7.0-windows\DAOSQL.db
-E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.UI.WPF\bin\Debug\net7.0-windows\DAOSQL.db-shm
-E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.UI.WPF\bin\Debug\net7.0-windows\DAOSQL.db-wal
 E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.UI.WPF\bin\Debug\net7.0-windows\KrakowiakKozlowski.Games.UI.WPF.dll.config
 E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.UI.WPF\bin\Debug\net7.0-windows\KrakowiakKozlowski.Games.UI.WPF.deps.json
 E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.UI.WPF\bin\Debug\net7.0-windows\KrakowiakKozlowski.Games.UI.WPF.runtimeconfig.json

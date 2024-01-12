@@ -116,7 +116,7 @@ namespace KrakowiakKozlowski.Games.UI.WPF.ViewModel
             int maxProducerId;
             try
             {
-                maxProducerId = dataAccess.DAO.GetAllProducers().Max(x => x.Id);
+                maxProducerId = dataAccess.DAO.GetAllProducers().Max(x => x.Id) + 1;
             }
             catch
             {

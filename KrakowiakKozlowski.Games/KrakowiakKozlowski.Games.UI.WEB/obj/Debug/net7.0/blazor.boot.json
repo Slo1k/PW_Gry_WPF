@@ -1,7 +1,7 @@
 {
   "entryAssembly": "KrakowiakKozlowski.Games.UI.WEB",
   "resources": {
-    "hash": "sha256-RKO55k5p+yKFDNziAm2ugSavx+p2TgG6M1xc+6ZXkRk=",
+    "hash": "sha256-KFrj3/UCPXkeiDfsAdO43Phkg7y9XJL8AuQuZwU7WgQ=",
     "runtime": {
       "dotnet.7.0.14.c9g412tem8.js": "sha256-YWGUknGRzP/fgO6YjvCJKPVQNZAPEd6ll+rHfQEIW+I=",
       "dotnet.timezones.blat": "sha256-t5xviiOQTfAsF0UDhmcyalKiaehUmf/sqJl97tmPM0M=",
@@ -217,18 +217,18 @@
       "mscorlib.dll": "sha256-YcsJInaT/kw3Vrm+SESegPxvT/Lr9RE6rE/KnxWIIc0=",
       "netstandard.dll": "sha256-TztlSRjADgiEABbiAMdWZpHrUVd8wnRtQRAvlwmRP/4=",
       "System.Private.CoreLib.dll": "sha256-BAhrZ8Zg3cJKQipxdzqQo+9jtPkOkRx1ou3oIhDohtk=",
-      "KrakowiakKozlowski.Games.BL.dll": "sha256-4X1RqUDLGUmQ6J+aGDACc1cgRwcZ+TXTfhQchc9DHJo=",
-      "KrakowiakKozlowski.Games.CORE.dll": "sha256-Exq6wh//Z7K6peUQBfOWq6lscEvNXhi6ZZEfPCjoGM8=",
-      "KrakowiakKozlowski.Games.DAOMOCK.dll": "sha256-SXabev7fgo0kBK70eAPCzUHtGcIZr/E/gF0SCV0I6VA=",
-      "KrakowiakKozlowski.Games.DAOSQL.dll": "sha256-VrYX4PiRLNeZ5v61OedEqWQUL1qzy9ce5bgD+SYQjEY=",
-      "KrakowiakKozlowski.Games.INTERFACES.dll": "sha256-JNwd36xjXL8nZgeDtvycpgZnoHUvlqg7iNg6mYSHIwI=",
-      "KrakowiakKozlowski.Games.UI.WEB.dll": "sha256-uzUBo19IACVBHUR8UlqP4trwuycAbn4Vme3GfV7ydok="
+      "KrakowiakKozlowski.Games.BL.dll": "sha256-ukZ6BCExbd0TymoZatndm92BqMqHX5l6UNJXThC5HF8=",
+      "KrakowiakKozlowski.Games.CORE.dll": "sha256-3hypspo5QAyMBbDHtcXDQVbmzIeIAfI2EYFUtNEGOvk=",
+      "KrakowiakKozlowski.Games.DAOMOCK.dll": "sha256-dfFf8IsMJhVJCFIgLDF0k+UBKdaEpeHoALLYf/Z/O0w=",
+      "KrakowiakKozlowski.Games.DAOSQL.dll": "sha256-OjuuSsdfxHqnh2IvyJT6VQvxOClEwZZ10SoLVqSTIDM=",
+      "KrakowiakKozlowski.Games.INTERFACES.dll": "sha256-aKPDheNxMaBhi8yOSdSqhZmShbCaTSAU5JuVbe5x2VQ=",
+      "KrakowiakKozlowski.Games.UI.WEB.dll": "sha256-2vmU5RLNcYHyPVUDxoF2g9Vb35PCFJKRsCD4sS+6MJQ="
     },
     "pdb": {
-      "KrakowiakKozlowski.Games.DAOMOCK.pdb": "sha256-nXMh8SDPJJIEdEsngdwyQbhcKz0GU3HdvUPDpd6a+q4=",
-      "KrakowiakKozlowski.Games.DAOSQL.pdb": "sha256-pNJQB3U6xCTShNSp75i3uvz/n8kX88S89W0IsHc9+h4=",
-      "KrakowiakKozlowski.Games.INTERFACES.pdb": "sha256-y6nfHla/rrZGEnn9h3zKS1+O/cVGxiZ81Zj25ekuCQo=",
-      "KrakowiakKozlowski.Games.UI.WEB.pdb": "sha256-PVGb0FyYL0Ryw/EGA+8gYTo7Aqn3OfbTCF9QQ8iy+bY="
+      "KrakowiakKozlowski.Games.DAOMOCK.pdb": "sha256-9hFve0bTLtUDnxjovBTt2hI5OELo8ilL3NlPveEFQf4=",
+      "KrakowiakKozlowski.Games.DAOSQL.pdb": "sha256-PnFpfPoi8gCpLZrWEBPn/p9gFBq1kXk73zNF3msP1QQ=",
+      "KrakowiakKozlowski.Games.INTERFACES.pdb": "sha256-WttIk6ooOJlFwZHc+/D8n40xVXmmuCvrC1M+v4s48YQ=",
+      "KrakowiakKozlowski.Games.UI.WEB.pdb": "sha256-TNRASUDyuegabXAyOFoW6VMoFYLLiseEiCabDqhPYOQ="
     },
     "runtimeAssets": {
       "dotnet.wasm": {

@@ -449,8 +449,6 @@ E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.UI.WEB\bin
 E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.UI.WEB\bin\Debug\net7.0\wwwroot\_framework\KrakowiakKozlowski.Games.DAOSQL.dll.gz
 E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.UI.WEB\bin\Debug\net7.0\KrakowiakKozlowski.Games.UI.WEB.staticwebassets.runtime.json
 E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.UI.WEB\bin\Debug\net7.0\DAOSQL.db
-E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.UI.WEB\bin\Debug\net7.0\DAOSQL.db-shm
-E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.UI.WEB\bin\Debug\net7.0\DAOSQL.db-wal
 E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.UI.WEB\bin\Debug\net7.0\KrakowiakKozlowski.Games.UI.WEB.dll
 E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.UI.WEB\bin\Debug\net7.0\KrakowiakKozlowski.Games.UI.WEB.pdb
 E:\Praca\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.UI.WEB\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
