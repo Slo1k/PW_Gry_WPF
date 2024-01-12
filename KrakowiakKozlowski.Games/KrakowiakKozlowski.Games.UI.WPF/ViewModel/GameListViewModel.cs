@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Data;
 using KrakowiakKozlowski.Games.BL;
 using KrakowiakKozlowski.Games.INTERFACES;
@@ -45,7 +46,7 @@ namespace KrakowiakKozlowski.Games.UI.WPF.ViewModel
             _view = (ListCollectionView)CollectionViewSource.GetDefaultView(Games);
             _filterDataCommand = new RelayCommand(param => this.FilterData());
             _filterTypeCommand = new RelayCommand(param => this.FilterType());
-            _addNewGameCommand = new RelayCommand(param => this.AddNewGame(), param => this.CanAddNewGame());
+            _addNewGameCommand = new RelayCommand(param => this.AddNewGame());
             _saveGameCommand = new RelayCommand(param => this.SaveGame(), param => this.CanSaveGame());
             _deleteGameCommand = new RelayCommand(param => this.DeleteGame(), param => this.CanDeleteGame());
             EditedGame = null;
@@ -139,11 +140,30 @@ namespace KrakowiakKozlowski.Games.UI.WPF.ViewModel
         }
         private void AddNewGame()
         {
+            var producers = dataAccess.DAO.GetAllProducers();
+
+            {
+                int maxGameId;
+                try
+                {
+                    maxGameId = dataAccess.DAO.GetAllGames().Max(x => x.Id);
+                }
+                catch
+                {
+                    maxGameId = 1;
+                }
+
+                AddGame addGameDialog = new AddGame(producers);
+                addGameDialog.Owner = Application.Current.MainWindow;
+
+                if (addGameDialog.ShowDialog() == true)
+                {
+                    var newGame = dataAccess.DAO.AddNewGame(maxGameId, addGameDialog.GameTitle, addGameDialog.GameReleaseYear, addGameDialog.GameGenre, addGameDialog.GameScore, addGameDialog.GameProducerId);
+                    Games.Add(new GameViewModel(newGame));
+                }
+            }
         }
-        private bool CanAddNewGame()
-        {
-            return true;
-        }
+
         private RelayCommand _deleteGameCommand;
         public RelayCommand DeleteGameCommand
         {

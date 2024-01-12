@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KrakowiakKozlowski.Games.DAOSQL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c00ebc152e43f1b20b07c2a3bde87d4ee9f40e9a")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("KrakowiakKozlowski.Games.DAOSQL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KrakowiakKozlowski.Games.DAOSQL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

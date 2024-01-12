@@ -6,7 +6,6 @@
         xmlns:local="clr-namespace:KrakowiakKozlowski.Games.UI.WPF"
         mc:Ignorable="d"
         Title="AddProducer" Height="220" Width="400"
-        ContentRendered="Window_ContentRendered"
         >
     <Grid>
         <Grid Margin="15">

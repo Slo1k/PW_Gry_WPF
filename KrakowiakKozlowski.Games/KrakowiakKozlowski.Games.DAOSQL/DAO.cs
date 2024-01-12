@@ -15,6 +15,8 @@ namespace KrakowiakKozlowski.Games.DAOSQL
 
         public DAO()
         {
+            var optionsBuilder = new DbContextOptionsBuilder<DataContext>();
+            optionsBuilder.UseSqlite("Data source=DAOSQL.db");
             context = new DataContext();
         }
 
@@ -40,6 +42,7 @@ namespace KrakowiakKozlowski.Games.DAOSQL
                 ProducerID = producerId
             };
 			context.Games.Add(newGame);
+            context.SaveChanges();
             return newGame.ToIGame(context.Producers.ToList());
         }
 
@@ -52,6 +55,7 @@ namespace KrakowiakKozlowski.Games.DAOSQL
                 Country = country
             };
             context.Producers.Add(newProducer);
+            context.SaveChanges();
             return newProducer.ToIProducer();
         }
 

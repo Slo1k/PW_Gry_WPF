@@ -39,7 +39,7 @@ namespace KrakowiakKozlowski.Games.UI.WPF.ViewModel
             GetAllProducers();
             _view = (ListCollectionView)CollectionViewSource.GetDefaultView(Producers);
             _filterDataCommand = new RelayCommand(param => FilterData());
-            _addNewProducerCommand = new RelayCommand(param => AddNewProducer(), param => CanAddNewProducer());
+            _addNewProducerCommand = new RelayCommand(param => AddNewProducer());
             _saveProducerCommand = new RelayCommand(param => SaveProducer(), param => CanSaveProducer());
             _deleteProducerCommand = new RelayCommand(param => DeleteProducer(), param => CanDeleteProducer());
             EditedProducer = null;
@@ -131,10 +131,6 @@ namespace KrakowiakKozlowski.Games.UI.WPF.ViewModel
                 var newProd = dataAccess.DAO.AddNewProducer(maxProducerId, addProducerDialog.ProducerName, addProducerDialog.ProducerCountry);
                 Producers.Add(new ProducerViewModel(newProd));
             }
-        }
-        private bool CanAddNewProducer()
-        {
-            return true;
         }
         private RelayCommand _deleteProducerCommand;
         public RelayCommand DeleteProducerCommand

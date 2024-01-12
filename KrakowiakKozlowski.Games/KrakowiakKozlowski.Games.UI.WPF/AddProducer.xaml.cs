@@ -25,13 +25,6 @@ namespace KrakowiakKozlowski.Games.UI.WPF
             InitializeComponent();
         }
 
-        public AddProducer(IProducer producer)
-        {
-            InitializeComponent();
-            producerName.Text = producer.Name;
-            producerCountry.Text = producer.Country;
-        }
-
         private void btnAdd(object sender, RoutedEventArgs e)
         {
             if (string.IsNullOrWhiteSpace(producerName.Text) || string.IsNullOrWhiteSpace(producerCountry.Text))
@@ -42,13 +35,6 @@ namespace KrakowiakKozlowski.Games.UI.WPF
 
             DialogResult = true;
         }
-
-        private void Window_ContentRendered(object sender, EventArgs e)
-        {
-            producerName.SelectAll();
-            producerName.Focus();
-        }
-
         public string ProducerName
         {
             get { return producerName.Text; }
@@ -57,6 +43,11 @@ namespace KrakowiakKozlowski.Games.UI.WPF
         public string ProducerCountry
         {
             get { return producerCountry.Text;  }
+        }
+
+        public static implicit operator AddProducer(AddGame v)
+        {
+            throw new NotImplementedException();
         }
     }
 }
