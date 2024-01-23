@@ -39,11 +39,11 @@
     [Parameter] public int producerId { get; set; }
     private FormModel formModel = new FormModel();
 
-    DataAccess dataAccess;
+    BLC dataAccess;
 
     public EditProducer()
     {
-        dataAccess = Singleton.Instance;
+        dataAccess = BLC.Instance;
     }
 
     private class FormModel
@@ -52,22 +52,21 @@
         public string Country { get; set; }
     }
     private KrakowiakKozlowski.Games.INTERFACES.IProducer? producer;
-    private KrakowiakKozlowski.Games.INTERFACES.IProducer editProducer = new KrakowiakKozlowski.Games.DAOMOCK.DO.Producer();
 
     private void HandleFormSubmit()
     {
 
-        editProducer.Id = producerId;
+        producer.Id = producerId;
 
-        editProducer.Name = formModel.Name;
-        editProducer.Country = formModel.Country;
+        producer.Name = formModel.Name;
+        producer.Country = formModel.Country;
 
         if (!Validate()) 
         {
             return;
         }
 
-        dataAccess.DAO.UpdateProducer(editProducer);
+        dataAccess.DAO.UpdateProducer(producer);
 
         // Reset the form
         formModel = new FormModel();
@@ -76,7 +75,7 @@
     }
     private bool Validate() 
     {
-        if (editProducer.Name.Length > 0 && editProducer.Country.Length > 0) 
+        if (producer.Name.Length > 0 && producer.Country.Length > 0)
         {
             return true;
         }

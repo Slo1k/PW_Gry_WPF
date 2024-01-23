@@ -1,7 +1,7 @@
 {
   "entryAssembly": "KrakowiakKozlowski.Games.UI.WEB",
   "resources": {
-    "hash": "sha256-KFrj3/UCPXkeiDfsAdO43Phkg7y9XJL8AuQuZwU7WgQ=",
+    "hash": "sha256-9rHvgLuDwpVr6wNDX6FdMxuntlmUVO+WiUSK4T75stQ=",
     "runtime": {
       "dotnet.7.0.14.c9g412tem8.js": "sha256-YWGUknGRzP/fgO6YjvCJKPVQNZAPEd6ll+rHfQEIW+I=",
       "dotnet.timezones.blat": "sha256-t5xviiOQTfAsF0UDhmcyalKiaehUmf/sqJl97tmPM0M=",
@@ -29,17 +29,28 @@
       "Microsoft.Extensions.Configuration.dll": "sha256-PqQvp77oZ4+uuy2ElXk8AU9I6RfZSf18UGTrd4rulOo=",
       "Microsoft.Extensions.Configuration.Abstractions.dll": "sha256-CnS3b9EMFQmETBUVEgtcron4DBsfFdcVt3zfCP6Uflg=",
       "Microsoft.Extensions.Configuration.Binder.dll": "sha256-7GY9+7Cm0Z8DJ+JCFwgCx9OfFtUvXlFHaaLlBYmXfIE=",
+      "Microsoft.Extensions.Configuration.CommandLine.dll": "sha256-tmkOaICZe4gkKlOvoTl91yHjNBL9d9XDb7zPFNF22rk=",
+      "Microsoft.Extensions.Configuration.EnvironmentVariables.dll": "sha256-nMStbaZaAvCOwpn6K8ktUk4rkKnte2SG73WUrngXhNA=",
       "Microsoft.Extensions.Configuration.FileExtensions.dll": "sha256-S86mGNxJnkVJ/qolp6cBN7xwXQ/YVtHy7QTaPO93AIA=",
       "Microsoft.Extensions.Configuration.Json.dll": "sha256-k525Vc8hbMpPjxYUYZNPuzJIuy+E1Is2XRTMFbUm1pE=",
+      "Microsoft.Extensions.Configuration.UserSecrets.dll": "sha256-kmbCY5zExKVhY58iD+DB6iEnylLrpq1ARmrJjSEtVYU=",
       "Microsoft.Extensions.DependencyInjection.dll": "sha256-/+vk9BsQP4bCVt1Y6aXakSztSMAli200ER6untxHLBg=",
       "Microsoft.Extensions.DependencyInjection.Abstractions.dll": "sha256-jrAm+30mcWoI54hsUTOr+RMOzHIq+zO8ZuRBVrBvCoo=",
       "Microsoft.Extensions.DependencyModel.dll": "sha256-GtQ8eMd/lfhUiu8KNzgZ99JT2rbjhhm8nq8+Zg32014=",
       "Microsoft.Extensions.FileProviders.Abstractions.dll": "sha256-Zt6OY6gg/1Tzt9oFOQBkezPvUVkFK4dyM6Pfk+MTUvg=",
       "Microsoft.Extensions.FileProviders.Physical.dll": "sha256-9xkIbIienaRj9Td2MyWYzL9JmVx6CKbGCPrvJ1Pxfn8=",
       "Microsoft.Extensions.FileSystemGlobbing.dll": "sha256-Gm0yiS5fySh2nZXdCRKZIbASK8sSukwjogLc+a9EBZY=",
+      "Microsoft.Extensions.Hosting.dll": "sha256-JhbOPETuHiwDg7xDhMkZs6Lqgg6i5eZY7GQju/oZKb8=",
+      "Microsoft.Extensions.Hosting.Abstractions.dll": "sha256-2qH9T9HZYBAigHr8n86fpvuaZsvJxdPdCMu5tec6Yjk=",
       "Microsoft.Extensions.Logging.dll": "sha256-WMsuY8rhtg+vvssGFSR7ZLKhqYPAzOi538IXMoiJ6bI=",
       "Microsoft.Extensions.Logging.Abstractions.dll": "sha256-7mzUlhcvGxpAVO4h/Tka7P/8IXF9ZsHkGt0fp5aufkU=",
+      "Microsoft.Extensions.Logging.Configuration.dll": "sha256-SLTPNUVKZ3WUF6whxwgjtaOs2SrrofQXR04a08ZjeTo=",
+      "Microsoft.Extensions.Logging.Console.dll": "sha256-eRYqPL0hrJB5PR8XMBUNIy5e1Na0lSPa7/wLqIriEy0=",
+      "Microsoft.Extensions.Logging.Debug.dll": "sha256-hoaLdDFu4lFqttRgjVM6lkpLRzXw4ZBWu0HDoWlmn/8=",
+      "Microsoft.Extensions.Logging.EventLog.dll": "sha256-KGymbqc8cutI+dAtd/VwZE7x3Qha3r0nW74gpYUU8vo=",
+      "Microsoft.Extensions.Logging.EventSource.dll": "sha256-TULUAQhfYZzNFnvWA9jwUv4mveG3rHx1pT3XZ9BDmIo=",
       "Microsoft.Extensions.Options.dll": "sha256-gcHJrSv1wTqvF9SyWTEKcbiShn4mkgfnm9+tRQr4OqY=",
+      "Microsoft.Extensions.Options.ConfigurationExtensions.dll": "sha256-ak6lqS/dfjy+F8Qc8EtFG6U11g25eEYOleqTNF+2Rv8=",
       "Microsoft.Extensions.Primitives.dll": "sha256-q4ruoDSCjV/QJY9ZkzV6uxvEvZUVrDbyUjU3SSh5SlE=",
       "Microsoft.JSInterop.dll": "sha256-AehwYy1LS3tq7tQBmAuu+XyUE138eX6q6T4yENKb42U=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-50v2DvQCeu51MYJTAhjabzGsiZf4JWgCE35fRkIHIv4=",
@@ -48,6 +59,7 @@
       "SQLitePCLRaw.core.dll": "sha256-jjSDOD/QnHlyKzPl4z/D58DPObtme8UT2gFIwbBDGHc=",
       "SQLitePCLRaw.provider.e_sqlite3.dll": "sha256-WrSHNHMpz/SEX1LuzzfI4bvxDCZpOr9VM0XfsFiK4HA=",
       "System.CodeDom.dll": "sha256-Wux4xpM0/BzRySb0qchXJg3S4D/xc56W3vHWgpa4a4s=",
+      "System.Diagnostics.EventLog.dll": "sha256-S+T+P5TWhpdggZkbhiHRuPbuTX9ykZG6874yAbDYu8k=",
       "System.IO.Pipelines.dll": "sha256-P/MqD0fCBd5bgTM16JC1QC/Zz7s+CwViyzmDFkBG4/c=",
       "Microsoft.CSharp.dll": "sha256-XmCZ+Cfuw5py6Q1x16Nt5nVc8OQo+i7gBxjkydpKQUo=",
       "Microsoft.VisualBasic.Core.dll": "sha256-ed2zYwDkMhsA156oZD4+3/0ZGN6SxYqS0dNSMMKvpyw=",
@@ -217,18 +229,14 @@
       "mscorlib.dll": "sha256-YcsJInaT/kw3Vrm+SESegPxvT/Lr9RE6rE/KnxWIIc0=",
       "netstandard.dll": "sha256-TztlSRjADgiEABbiAMdWZpHrUVd8wnRtQRAvlwmRP/4=",
       "System.Private.CoreLib.dll": "sha256-BAhrZ8Zg3cJKQipxdzqQo+9jtPkOkRx1ou3oIhDohtk=",
-      "KrakowiakKozlowski.Games.BL.dll": "sha256-ukZ6BCExbd0TymoZatndm92BqMqHX5l6UNJXThC5HF8=",
-      "KrakowiakKozlowski.Games.CORE.dll": "sha256-3hypspo5QAyMBbDHtcXDQVbmzIeIAfI2EYFUtNEGOvk=",
-      "KrakowiakKozlowski.Games.DAOMOCK.dll": "sha256-dfFf8IsMJhVJCFIgLDF0k+UBKdaEpeHoALLYf/Z/O0w=",
-      "KrakowiakKozlowski.Games.DAOSQL.dll": "sha256-OjuuSsdfxHqnh2IvyJT6VQvxOClEwZZ10SoLVqSTIDM=",
-      "KrakowiakKozlowski.Games.INTERFACES.dll": "sha256-aKPDheNxMaBhi8yOSdSqhZmShbCaTSAU5JuVbe5x2VQ=",
-      "KrakowiakKozlowski.Games.UI.WEB.dll": "sha256-2vmU5RLNcYHyPVUDxoF2g9Vb35PCFJKRsCD4sS+6MJQ="
+      "KrakowiakKozlowski.Games.BL.dll": "sha256-7XfTJHRigV4HRamhwYwmXhw3By0zODLcTE+AXfUmL/8=",
+      "KrakowiakKozlowski.Games.CORE.dll": "sha256-Sonsg6XZVxPiadJVE8HnUS55iBerCE62fzLrldqPyN0=",
+      "KrakowiakKozlowski.Games.INTERFACES.dll": "sha256-Y4YCNBkI+K/I9Es6RRfALu0RXe5kmtuURGZkp5ZBJdI=",
+      "KrakowiakKozlowski.Games.UI.WEB.dll": "sha256-df94a+1XtxhZjiI1Vjqx7Y55++E+7H3Fp0KXGYXrZYY="
     },
     "pdb": {
-      "KrakowiakKozlowski.Games.DAOMOCK.pdb": "sha256-9hFve0bTLtUDnxjovBTt2hI5OELo8ilL3NlPveEFQf4=",
-      "KrakowiakKozlowski.Games.DAOSQL.pdb": "sha256-PnFpfPoi8gCpLZrWEBPn/p9gFBq1kXk73zNF3msP1QQ=",
-      "KrakowiakKozlowski.Games.INTERFACES.pdb": "sha256-WttIk6ooOJlFwZHc+/D8n40xVXmmuCvrC1M+v4s48YQ=",
-      "KrakowiakKozlowski.Games.UI.WEB.pdb": "sha256-TNRASUDyuegabXAyOFoW6VMoFYLLiseEiCabDqhPYOQ="
+      "KrakowiakKozlowski.Games.INTERFACES.pdb": "sha256-IbqSfbz+Gw7BbFZ8tOgsC+DS4nXWTgCO9nUi8Bu1BVk=",
+      "KrakowiakKozlowski.Games.UI.WEB.pdb": "sha256-ZsQa33PO/agBbxC+6CSkmKB6Lnnw7WjYNGLqDl+QPa8="
     },
     "runtimeAssets": {
       "dotnet.wasm": {
@@ -241,7 +249,9 @@
   "debugBuild": true,
   "debugLevel": 0,
   "linkerEnabled": false,
-  "config": [],
+  "config": [
+    "appsettings.json"
+  ],
   "icuDataMode": 0,
   "extensions": {
     "blazor": {}

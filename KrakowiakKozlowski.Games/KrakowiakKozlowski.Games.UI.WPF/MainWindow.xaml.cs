@@ -23,7 +23,6 @@ namespace KrakowiakKozlowski.Games.UI.WPF
         ObservableCollection<IProducer> Help = new ObservableCollection<IProducer>();
         public MainWindow()
         {
-            Singleton.SetDataAccess(ConfigurationManager.AppSettings["DBName"]);
             InitializeComponent();
             foreach (var x in Glvm.Producers)
             {

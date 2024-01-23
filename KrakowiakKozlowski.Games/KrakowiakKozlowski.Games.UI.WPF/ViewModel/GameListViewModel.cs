@@ -30,12 +30,12 @@ namespace KrakowiakKozlowski.Games.UI.WPF.ViewModel
         }
         public string FilterTypeValue { get; set; }
 
-        private DataAccess dataAccess = null;
+        private BLC dataAccess = null;
         public GameListViewModel()
         {
             try
             {
-                dataAccess = Singleton.Instance;
+                dataAccess = BLC.Instance;
             }
             catch (NullReferenceException)
             {

@@ -10,7 +10,7 @@ namespace KrakowiakKozlowski.Games.DAOSQL
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data source=DAOSQL.db")
+            optionsBuilder.UseSqlite("Data source=..\\..\\..\\..\\KrakowiakKozlowski.Games.DAOSQL\\bin\\Debug\\net7.0\\DAOSQL.db")
             .LogTo(message => Debug.WriteLine(message), LogLevel.Information);
         }
         public DbSet<DO.Producer> Producers { get; set; }

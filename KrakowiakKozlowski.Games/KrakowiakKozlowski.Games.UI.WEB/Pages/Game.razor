@@ -95,11 +95,11 @@
     private KrakowiakKozlowski.Games.INTERFACES.IGame? game;
     private bool isConfirmModalOpen = false;
 
-    DataAccess dataAccess;
+    BLC dataAccess;
 
     public Game()
     {
-        dataAccess = Singleton.Instance;
+        dataAccess = BLC.Instance;
     }
 
     private void NavigateToEdit()

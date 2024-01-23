@@ -29,10 +29,10 @@
 @code {
     private FormModel formModel = new FormModel();
 
-    DataAccess dataAccess;
+    BLC dataAccess;
     public NewProducer()
     {
-        dataAccess = Singleton.Instance;
+        dataAccess = BLC.Instance;
     }
 
     private class FormModel

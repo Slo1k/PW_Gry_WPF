@@ -65,10 +65,10 @@
     private KrakowiakKozlowski.Games.INTERFACES.IProducer? producer;
     private bool isConfirmModalOpen = false;
 
-    DataAccess dataAccess;
+    BLC dataAccess;
     public Producer()
     {
-        dataAccess = Singleton.Instance;
+        dataAccess = BLC.Instance;
     }
 
     private void NavigateToEdit()

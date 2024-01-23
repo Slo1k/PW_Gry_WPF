@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KrakowiakKozlowski.Games.CORE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c445c3026727c54b013087f92b1a0297a4442794")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82c5f20fdc15c8fc0584a2e8a9e1221de86a2bf0")]
 [assembly: System.Reflection.AssemblyProductAttribute("KrakowiakKozlowski.Games.CORE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KrakowiakKozlowski.Games.CORE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

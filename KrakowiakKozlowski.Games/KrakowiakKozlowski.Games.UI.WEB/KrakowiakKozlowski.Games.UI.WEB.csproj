@@ -17,20 +17,22 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\KrakowiakKozlowski.Games.BL\KrakowiakKozlowski.Games.BL.csproj" />
     <ProjectReference Include="..\KrakowiakKozlowski.Games.CORE\KrakowiakKozlowski.Games.CORE.csproj" />
-    <ProjectReference Include="..\KrakowiakKozlowski.Games.DAOMOCK\KrakowiakKozlowski.Games.DAOMOCK.csproj" />
-    <ProjectReference Include="..\KrakowiakKozlowski.Games.DAOSQL\KrakowiakKozlowski.Games.DAOSQL.csproj" />
     <ProjectReference Include="..\KrakowiakKozlowski.Games.INTERFACES\KrakowiakKozlowski.Games.INTERFACES.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="DAOSQL.db">
+    <Content Update="appsettings.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    </Content>
+    <Content Update="wwwroot\appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

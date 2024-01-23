@@ -64,11 +64,11 @@
     [Parameter] public int gameId { get; set; }
     private FormModel formModel = new FormModel();
 
-    DataAccess dataAccess;
+    BLC dataAccess;
 
     public EditGame()
     {
-        dataAccess = Singleton.Instance;
+        dataAccess = BLC.Instance;
     }
 
     private class FormModel
@@ -80,24 +80,23 @@
         public KrakowiakKozlowski.Games.CORE.GameGenre Genre { get; set; }
     }
     private KrakowiakKozlowski.Games.INTERFACES.IGame? game;
-    private KrakowiakKozlowski.Games.INTERFACES.IGame editGame = new KrakowiakKozlowski.Games.DAOMOCK.DO.Game();
 
     private void HandleFormSubmit()
     {
 
-        editGame.Id = gameId;
-        editGame.Title = formModel.Title;
-        editGame.ReleaseYear = formModel.ReleaseYear;
-        editGame.Score = formModel.Score;
-        editGame.Genre = formModel.Genre;
-        editGame.Producer = producers.FirstOrDefault(p => p.Id == formModel.ProducerId);
+        game.Id = gameId;
+        game.Title = formModel.Title;
+        game.ReleaseYear = formModel.ReleaseYear;
+        game.Score = formModel.Score;
+        game.Genre = formModel.Genre;
+        game.Producer = producers.FirstOrDefault(p => p.Id == formModel.ProducerId);
 
         if (!Validate()) 
         {
             return;
         }
 
-        dataAccess.DAO.UpdateGame(editGame);
+        dataAccess.DAO.UpdateGame(game);
 
         // Reset the form
         formModel = new FormModel();
@@ -106,7 +105,7 @@
     }
     private bool Validate() 
     {
-        if (editGame.Title.Length > 0 && editGame.Producer is not null) 
+        if (game.Title.Length > 0 && game.Producer is not null)
         {
             return true;
         }

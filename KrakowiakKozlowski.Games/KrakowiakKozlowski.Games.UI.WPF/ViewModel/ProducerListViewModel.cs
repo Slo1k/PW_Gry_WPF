@@ -24,12 +24,12 @@ namespace KrakowiakKozlowski.Games.UI.WPF.ViewModel
         }
         public string FilterValue { get; set; }
 
-        private DataAccess dataAccess = null;
+        private BLC dataAccess = null;
         public ProducerListViewModel()
         {
             try
             {
-                dataAccess = Singleton.Instance;
+                dataAccess = BLC.Instance;
             }
             catch (NullReferenceException)
             {

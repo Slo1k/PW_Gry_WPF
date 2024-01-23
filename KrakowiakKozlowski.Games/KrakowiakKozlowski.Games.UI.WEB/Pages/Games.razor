@@ -119,12 +119,11 @@
     List<KrakowiakKozlowski.Games.INTERFACES.IGame> games;
     private List<KrakowiakKozlowski.Games.INTERFACES.IGame> filteredGames = new List<KrakowiakKozlowski.Games.INTERFACES.IGame>();
 
-    private DataAccess dataAccess = null;
+    private BLC dataAccess = null;
 
     public Games ()
     {
-        dataAccess = Singleton.Instance;
-        Console.WriteLine("TSET");
+        dataAccess = BLC.Instance;
     }
 
     private void NavigateToEdit(int id)

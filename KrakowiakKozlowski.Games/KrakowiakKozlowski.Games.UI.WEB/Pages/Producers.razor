@@ -99,10 +99,10 @@
     private bool isConfirmModalOpen = false;
     private KrakowiakKozlowski.Games.INTERFACES.IProducer? selectedProducer;
 
-    DataAccess dataAccess;
+    BLC dataAccess;
     public Producers()
     {
-        dataAccess = Singleton.Instance;
+        dataAccess = BLC.Instance;
     }
 
     List<KrakowiakKozlowski.Games.INTERFACES.IProducer> producers;

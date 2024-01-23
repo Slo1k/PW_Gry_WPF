@@ -55,11 +55,11 @@
 @code {
     private FormModel formModel = new FormModel();
 
-    DataAccess dataAccess;
+    BLC dataAccess;
 
     public NewGame()
     {
-        dataAccess = Singleton.Instance;
+        dataAccess = BLC.Instance;
     }
 
     private class FormModel
