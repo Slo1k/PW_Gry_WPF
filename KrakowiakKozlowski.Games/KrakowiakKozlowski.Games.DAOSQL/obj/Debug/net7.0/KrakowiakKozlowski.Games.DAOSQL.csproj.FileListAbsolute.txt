@@ -56,8 +56,6 @@ C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozl
 C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\DAOSQL.db-shm
 C:\Users\Mikolaj\Desktop\WPF DONE DAOMOCK\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\DAOSQL.db-wal
 C:\PLIKI\GitHub\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\DAOSQL.db
-C:\PLIKI\GitHub\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\DAOSQL.db-shm
-C:\PLIKI\GitHub\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\DAOSQL.db-wal
 C:\PLIKI\GitHub\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.deps.json
 C:\PLIKI\GitHub\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.runtimeconfig.json
 C:\PLIKI\GitHub\PW_Gry_WPF\KrakowiakKozlowski.Games\KrakowiakKozlowski.Games.DAOSQL\bin\Debug\net7.0\KrakowiakKozlowski.Games.DAOSQL.dll

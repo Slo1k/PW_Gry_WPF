@@ -73,7 +73,9 @@
 
     private void HandleFormSubmit()
     {
-        int newGameId = games.Max(p => p.Id) + 1;
+        @* int newGameId = games.Max(p => p.Id) + 1; *@
+        var lastGame = games.OrderByDescending(p => p.Id).FirstOrDefault();
+        int newGameId = lastGame != null ? lastGame.Id : 0;
 
         if (formModel.Title.Length <= 0)
         {

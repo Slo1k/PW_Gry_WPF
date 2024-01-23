@@ -19,7 +19,8 @@ namespace KrakowiakKozlowski.Games.DAOSQL.DO
 
         public IProducer ToIProducer()
         {
-            return new Prod { Id = Id, Name = Name, Country = Country };
+            var prod = new Prod { Id = Id, Name = Name, Country = Country };
+            return prod;
         }
     }
 

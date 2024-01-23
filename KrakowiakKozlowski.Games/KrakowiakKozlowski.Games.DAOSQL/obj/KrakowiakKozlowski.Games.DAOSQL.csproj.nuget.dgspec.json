@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.DAOSQL\\KrakowiakKozlowski.Games.DAOSQL.csproj": {}
+    "C:\\PLIKI\\GitHub\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.DAOSQL\\KrakowiakKozlowski.Games.DAOSQL.csproj": {}
   },
   "projects": {
-    "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.CORE\\KrakowiakKozlowski.Games.CORE.csproj": {
+    "C:\\PLIKI\\GitHub\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.CORE\\KrakowiakKozlowski.Games.CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.CORE\\KrakowiakKozlowski.Games.CORE.csproj",
+        "projectUniqueName": "C:\\PLIKI\\GitHub\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.CORE\\KrakowiakKozlowski.Games.CORE.csproj",
         "projectName": "KrakowiakKozlowski.Games.CORE",
-        "projectPath": "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.CORE\\KrakowiakKozlowski.Games.CORE.csproj",
-        "packagesPath": "C:\\Users\\Mikolaj\\.nuget\\packages\\",
-        "outputPath": "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.CORE\\obj\\",
+        "projectPath": "C:\\PLIKI\\GitHub\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.CORE\\KrakowiakKozlowski.Games.CORE.csproj",
+        "packagesPath": "C:\\Users\\HATUS\\.nuget\\packages\\",
+        "outputPath": "C:\\PLIKI\\GitHub\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.CORE\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Mikolaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HATUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,21 +59,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.DAOSQL\\KrakowiakKozlowski.Games.DAOSQL.csproj": {
+    "C:\\PLIKI\\GitHub\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.DAOSQL\\KrakowiakKozlowski.Games.DAOSQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.DAOSQL\\KrakowiakKozlowski.Games.DAOSQL.csproj",
+        "projectUniqueName": "C:\\PLIKI\\GitHub\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.DAOSQL\\KrakowiakKozlowski.Games.DAOSQL.csproj",
         "projectName": "KrakowiakKozlowski.Games.DAOSQL",
-        "projectPath": "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.DAOSQL\\KrakowiakKozlowski.Games.DAOSQL.csproj",
-        "packagesPath": "C:\\Users\\Mikolaj\\.nuget\\packages\\",
-        "outputPath": "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.DAOSQL\\obj\\",
+        "projectPath": "C:\\PLIKI\\GitHub\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.DAOSQL\\KrakowiakKozlowski.Games.DAOSQL.csproj",
+        "packagesPath": "C:\\Users\\HATUS\\.nuget\\packages\\",
+        "outputPath": "C:\\PLIKI\\GitHub\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.DAOSQL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Mikolaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HATUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,8 +91,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.INTERFACES\\KrakowiakKozlowski.Games.INTERFACES.csproj": {
-                "projectPath": "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.INTERFACES\\KrakowiakKozlowski.Games.INTERFACES.csproj"
+              "C:\\PLIKI\\GitHub\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.INTERFACES\\KrakowiakKozlowski.Games.INTERFACES.csproj": {
+                "projectPath": "C:\\PLIKI\\GitHub\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.INTERFACES\\KrakowiakKozlowski.Games.INTERFACES.csproj"
               }
             }
           }
@@ -130,21 +138,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.INTERFACES\\KrakowiakKozlowski.Games.INTERFACES.csproj": {
+    "C:\\PLIKI\\GitHub\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.INTERFACES\\KrakowiakKozlowski.Games.INTERFACES.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.INTERFACES\\KrakowiakKozlowski.Games.INTERFACES.csproj",
+        "projectUniqueName": "C:\\PLIKI\\GitHub\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.INTERFACES\\KrakowiakKozlowski.Games.INTERFACES.csproj",
         "projectName": "KrakowiakKozlowski.Games.INTERFACES",
-        "projectPath": "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.INTERFACES\\KrakowiakKozlowski.Games.INTERFACES.csproj",
-        "packagesPath": "C:\\Users\\Mikolaj\\.nuget\\packages\\",
-        "outputPath": "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.INTERFACES\\obj\\",
+        "projectPath": "C:\\PLIKI\\GitHub\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.INTERFACES\\KrakowiakKozlowski.Games.INTERFACES.csproj",
+        "packagesPath": "C:\\Users\\HATUS\\.nuget\\packages\\",
+        "outputPath": "C:\\PLIKI\\GitHub\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.INTERFACES\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Mikolaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HATUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -158,8 +170,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.CORE\\KrakowiakKozlowski.Games.CORE.csproj": {
-                "projectPath": "E:\\Praca\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.CORE\\KrakowiakKozlowski.Games.CORE.csproj"
+              "C:\\PLIKI\\GitHub\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.CORE\\KrakowiakKozlowski.Games.CORE.csproj": {
+                "projectPath": "C:\\PLIKI\\GitHub\\PW_Gry_WPF\\KrakowiakKozlowski.Games\\KrakowiakKozlowski.Games.CORE\\KrakowiakKozlowski.Games.CORE.csproj"
               }
             }
           }
@@ -189,7 +201,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -15,8 +15,6 @@ namespace KrakowiakKozlowski.Games.DAOSQL
 
         public DAO()
         {
-            var optionsBuilder = new DbContextOptionsBuilder<DataContext>();
-            optionsBuilder.UseSqlite("Data source=DAOSQL.db");
             context = new DataContext();
         }
 
@@ -96,12 +94,12 @@ namespace KrakowiakKozlowski.Games.DAOSQL
 
         public IGame GetGameById(int id)
         {
-            return context.Games.FirstOrDefault(gm => gm.Equals(id)).ToIGame(context.Producers.ToList());
+            return context.Games.FirstOrDefault(gm => gm.Id == id).ToIGame(context.Producers.ToList());
         }
 
         public IProducer GetProducerById(int id)
         {
-            return context.Producers.FirstOrDefault(pr => pr.Equals(id)).ToIProducer();
+            return context.Producers.FirstOrDefault(pr => pr.Id == id).ToIProducer();
         }
     }
 }
