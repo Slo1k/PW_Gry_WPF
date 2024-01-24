@@ -126,6 +126,6 @@
     }
     protected override void OnInitialized()
     {
-        game = dataAccess.DAO.GetGameById(gameId);
+        game = dataAccess.DAO.GetAllGames().FirstOrDefault(gm => gm.Id.Equals(gameId));
     }
 }

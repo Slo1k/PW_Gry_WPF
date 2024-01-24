@@ -116,7 +116,7 @@
     protected override void OnInitialized()
     {
         producers = dataAccess.DAO.GetAllProducers().ToList();
-        game = dataAccess.DAO.GetGameById(gameId);
+        game = dataAccess.DAO.GetAllGames().FirstOrDefault(gm => gm.Id.Equals(gameId));
         if (game is not null) 
         {
             formModel.Title = game.Title;

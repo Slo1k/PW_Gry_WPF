@@ -84,7 +84,7 @@
 
     protected override void OnInitialized()
     {
-        producer = dataAccess.DAO.GetProducerById(producerId);
+        producer = dataAccess.DAO.GetAllProducers().FirstOrDefault(pr => pr.Id.Equals(producerId));
         if (producer is not null) 
         {
             formModel.Name = producer.Name;

@@ -94,12 +94,14 @@ namespace KrakowiakKozlowski.Games.DAOSQL
 
         public IGame GetGameById(int id)
         {
-            return context.Games.FirstOrDefault(gm => gm.Id == id).ToIGame(context.Producers.ToList());
+            var game = context.Games.FirstOrDefault(gm => gm.Id.Equals((id))).ToIGame(context.Producers.ToList());
+            return game;
         }
 
         public IProducer GetProducerById(int id)
         {
-            return context.Producers.FirstOrDefault(pr => pr.Id == id).ToIProducer();
+            var producerEntity = context.Producers.FirstOrDefault(pr => pr.Id == id);
+            return producerEntity?.ToIProducer();
         }
     }
 }

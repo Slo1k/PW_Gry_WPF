@@ -95,6 +95,6 @@
     }
     protected override void OnInitialized()
     {
-        producer = dataAccess.DAO.GetProducerById(producerId);
+        producer = dataAccess.DAO.GetAllProducers().FirstOrDefault(pr => pr.Id.Equals(producerId));
     }
 }

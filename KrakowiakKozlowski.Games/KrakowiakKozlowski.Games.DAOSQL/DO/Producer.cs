@@ -10,7 +10,7 @@ using KrakowiakKozlowski.Games.INTERFACES;
 namespace KrakowiakKozlowski.Games.DAOSQL.DO
 {
     [Table("Producers")]
-    public class Producer
+    public class Producer: IProducer
     {
         [Key]
         public int Id { get; set; }
@@ -19,15 +19,7 @@ namespace KrakowiakKozlowski.Games.DAOSQL.DO
 
         public IProducer ToIProducer()
         {
-            var prod = new Prod { Id = Id, Name = Name, Country = Country };
-            return prod;
+            return this;
         }
     }
-
-	class Prod : IProducer
-	{
-		public int Id { get; set; }
-		public string Name { get; set; }
-		public string Country { get; set; }
-	}
 }
