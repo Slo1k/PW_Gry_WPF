@@ -59,11 +59,22 @@
         Are you sure you want to remove <strong>"@producer.Name"</strong>? 
     </ConfirmModal>
 }
+@if (isCannotRemoveModalOpen)
+{
+    <ConfirmModal 
+        OnConfirm="HandleCannotRemove"
+        OnCancel="HandleCannotRemove" 
+    >
+        Cannot remove this producer because it has existing games
+    </ConfirmModal>
+}
 
 @code {
     [Parameter] public int producerId { get; set; }
     private KrakowiakKozlowski.Games.INTERFACES.IProducer? producer;
+    private KrakowiakKozlowski.Games.INTERFACES.IGame? gameOfProducer;
     private bool isConfirmModalOpen = false;
+    private bool isCannotRemoveModalOpen = false;
 
     BLC dataAccess;
     public Producer()
@@ -87,11 +98,26 @@
     {
         if (producer != null)
         {
-            dataAccess.DAO.RemoveProducer(producer.Id);
+            gameOfProducer = dataAccess.DAO.GetAllGames().FirstOrDefault(gm => gm.Producer.Equals(producer));
+            if (gameOfProducer != null)
+            {
+                isConfirmModalOpen = false;
+                isCannotRemoveModalOpen = true;
+            }
+            else
+            {
+                dataAccess.DAO.RemoveProducer(producer.Id);
+                isConfirmModalOpen = false;
+                NavManager.NavigateTo("/producers");
+            }
         }
 
-        isConfirmModalOpen = false;
-        NavManager.NavigateTo("/producers");
+    }
+    private void HandleCannotRemove()
+    {
+        // Reset the flag
+        isCannotRemoveModalOpen = false;
+        gameOfProducer = null;
     }
     protected override void OnInitialized()
     {

@@ -44,7 +44,7 @@
     {
         @* int newProducerId = producers.Max(p => p.Id) ? producers.Max(p => p.Id) + 1 : 1; *@
         var lastProducer = producers.OrderByDescending(p => p.Id).FirstOrDefault();
-        int newProducerId = lastProducer != null ? lastProducer.Id : 0;
+        int newProducerId = lastProducer != null ? lastProducer.Id + 1 : 0;
 
 
         if (formModel.Name.Length <= 0 || formModel.Country.Length <= 0) 

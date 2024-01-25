@@ -93,11 +93,22 @@
         Are you sure you want to remove <strong>"@selectedProducer.Name"</strong>? 
     </ConfirmModal>
 }
+@if (isCannotRemoveModalOpen)
+{
+        <ConfirmModal 
+            OnConfirm="HandleCannotRemove"
+            OnCancel="HandleCannotRemove" 
+        >
+            Cannot remove this producer because it has existing games
+        </ConfirmModal>
+}
 
 @code {
     private string searchTerm = "";
     private bool isConfirmModalOpen = false;
+    private bool isCannotRemoveModalOpen = false;
     private KrakowiakKozlowski.Games.INTERFACES.IProducer? selectedProducer;
+    private KrakowiakKozlowski.Games.INTERFACES.IGame? gameOfProducer;
 
     BLC dataAccess;
     public Producers()
@@ -126,17 +137,30 @@
     {
         if (selectedProducer != null)
         {
-            // TODO: Implement the logic to delete the selected producer
-            dataAccess.DAO.RemoveProducer(selectedProducer.Id);
+            gameOfProducer = dataAccess.DAO.GetAllGames().FirstOrDefault(gm => gm.Producer.Equals(selectedProducer));
 
-            // Refresh the producers list
-            producers = dataAccess.DAO.GetAllProducers().ToList();
-            filteredProducers = producers;
+            if (gameOfProducer != null)
+            {
+                isCannotRemoveModalOpen = true;
+            } else
+            {
+                dataAccess.DAO.RemoveProducer(selectedProducer.Id);
+
+                // Refresh the producers list
+                producers = dataAccess.DAO.GetAllProducers().ToList();
+                filteredProducers = producers;
+            }
         }
 
         // Reset the flag and selected producer
         isConfirmModalOpen = false;
         selectedProducer = null;
+    }
+    private void HandleCannotRemove()
+    {
+        // Reset the flag
+        isCannotRemoveModalOpen = false;
+        gameOfProducer = null;
     }
     private void Search()
     {
