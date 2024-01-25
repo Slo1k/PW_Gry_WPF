@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KrakowiakKozlowski.Games.UI.WEB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8df6d44c579acaa6de05c8639ec3e8dceac252ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+253ca43dc8f4c218d7c86bc4a3e35a291fea81a2")]
 [assembly: System.Reflection.AssemblyProductAttribute("KrakowiakKozlowski.Games.UI.WEB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KrakowiakKozlowski.Games.UI.WEB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

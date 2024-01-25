@@ -123,8 +123,8 @@ namespace KrakowiakKozlowski.Games.UI.WPF.ViewModel
                 maxProducerId = 1;
             }
 
-            AddProducer addProducerDialog = new AddProducer(); // Instantiate the dialog
-            addProducerDialog.Owner = Application.Current.MainWindow; // Set the owner of the dialog
+            AddProducer addProducerDialog = new AddProducer();
+            addProducerDialog.Owner = Application.Current.MainWindow;
 
             if (addProducerDialog.ShowDialog() == true)
             {
@@ -149,7 +149,7 @@ namespace KrakowiakKozlowski.Games.UI.WPF.ViewModel
         }
         private bool CanDeleteProducer()
         {
-            if (EditedProducer != null && !EditedProducer.HasErrors)
+            if (EditedProducer != null)
             {
                 return true;
             }
