@@ -102,7 +102,7 @@ namespace KrakowiakKozlowski.Games.UI.WPF.ViewModel
         }
         private bool CanSaveProducer()
         {
-            if (EditedProducer != null && !EditedProducer.HasErrors)
+            if (EditedProducer != null)
             {
                 return true;
             }

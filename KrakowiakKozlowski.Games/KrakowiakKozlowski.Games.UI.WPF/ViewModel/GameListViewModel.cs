@@ -127,7 +127,7 @@ namespace KrakowiakKozlowski.Games.UI.WPF.ViewModel
         }
         private bool CanSaveGame()
         {
-            if (EditedGame != null && !EditedGame.HasErrors)
+            if (EditedGame != null)
             {
                 return true;
             }
@@ -185,7 +185,7 @@ namespace KrakowiakKozlowski.Games.UI.WPF.ViewModel
         }
         private bool CanDeleteGame()
         {
-            if (EditedGame != null && !EditedGame.HasErrors)
+            if (EditedGame != null)
             {
                 return true;
             }
