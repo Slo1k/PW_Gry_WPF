@@ -16,6 +16,7 @@ namespace KrakowiakKozlowski.Games.UI.WPF.ViewModel
     {
         public event PropertyChangedEventHandler? PropertyChanged;
         public ObservableCollection<ProducerViewModel> Producers { get; set; } = new ObservableCollection<ProducerViewModel>();
+        public ObservableCollection<GameViewModel> Games { get; set; } = new ObservableCollection<GameViewModel>();
         private ListCollectionView _view;
         private RelayCommand _filterDataCommand;
         public RelayCommand FilterDataCommand
@@ -47,6 +48,7 @@ namespace KrakowiakKozlowski.Games.UI.WPF.ViewModel
         }
         private void GetAllProducers()
         {
+            Producers.Clear();
             List<IProducer> producers = dataAccess.DAO.GetAllProducers().ToList();
             foreach (var producer in producers)
             {
@@ -141,6 +143,12 @@ namespace KrakowiakKozlowski.Games.UI.WPF.ViewModel
         {
             if (Producers.Contains(SelectedProducer))
             {
+                if (IsProducerAssignedToGame(SelectedProducer.Id))
+                {
+                    MessageBox.Show("Cannot delete the producer as it is assigned to at least one game.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    return;
+                }
+
                 dataAccess.RemoveProducer(SelectedProducer.Id);
                 Producers.Remove(SelectedProducer);
                 EditedProducer = null;
@@ -156,7 +164,22 @@ namespace KrakowiakKozlowski.Games.UI.WPF.ViewModel
             return false;
         }
 
-
-        private void RaisePropertyChanged(string propertyName) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        private bool IsProducerAssignedToGame(int producerId)
+        {
+            Games.Clear();
+            List<IGame> games = dataAccess.DAO.GetAllGames().ToList();
+            foreach (var game in games)
+            {
+                Games.Add(new GameViewModel(game));
+            }
+            foreach (var gameViewModel in Games)
+            {
+                if (gameViewModel.Game.Producer.Id == producerId)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
     }
 }
